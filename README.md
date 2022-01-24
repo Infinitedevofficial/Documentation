@@ -1,12 +1,12 @@
 ## Useful Information
 
-Local Configs are stored in **Documents\.Infinite** (for example,
+Local Configs are stored in `Documents\.Infinite` (for example,
 `C:\Users\Oak\Documents\.Infinite\Config.json`)
 
-Local Scripts are stored in **Documents\.Infinite\scripts** (for example,
+Local Scripts are stored in `Documents\.Infinite\scripts` (for example,
 `C:\Users\Oak\Documents\.Infinite\scripts\Script.lua`)
 
-Local Grenade Helpers are stored in **Documents\.Infinite\GrenadeHelper** (for example,
+Local Grenade Helpers are stored in `Documents\.Infinite\GrenadeHelper` (for example,
 `C:\Users\Oak\Documents\.Infinite\GrenadeHelper\Helper.json`)
 
 You can edit scripts with any editor you want, make sure to reload the script after saving.
