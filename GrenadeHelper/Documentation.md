@@ -1,5 +1,8 @@
 ## [Return](/README.md)
 <a name="-1"></a>
+
+[Developer Mode](#14)
+
 |Parameters|
 |--------|
 |[Map](#0)|
@@ -16,6 +19,7 @@
 |[Forward](#11)|
 |[Backward](#12)|
 |[Throw](#13)|
+
 
 ---
 ## <a name="0"></a>Map
@@ -358,3 +362,9 @@
 [return to parameters](#-1)
 
 --- 
+## <a name="14"></a>Developer Mode
+
+
+
+[return to top](#-1)
+```
