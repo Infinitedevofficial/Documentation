@@ -16,7 +16,8 @@
 |[Throw](#13)|
 
 ---
-# <a name="0"></a>Map
+## <a name="0"></a>Map
+
 ---
 
 ### Information:
@@ -28,3 +29,24 @@
 ```json
 "Map" : "de_mirage"
 ```
+
+[return to parameters](#-1)
+
+---
+## <a name="0"></a>Name
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Name | string | Location name |
+
+```json
+"Name" : "CT Spawn",
+```
+
+[return to parameters](#-1)
+
+---
