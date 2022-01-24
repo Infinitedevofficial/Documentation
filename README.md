@@ -17,12 +17,13 @@ You can edit scripts with any editor you want, make sure to reload the script af
 ---
 
 ## Grenade Helper
----
+
 [Grenade Helper Documentation](/GrenadeHelper/Documentation.md)
 
 [Grenade Helper Example](/GrenadeHelper/Example.json)
 
 [Grenade Helper Template](/GrenadeHelper/Template.json)
+
 ---
 ## Found a mistake in documentation?
 
@@ -33,3 +34,5 @@ Feel free to contact us:
 - Personal messages to any of documentation maintainer:
   - Discord: Oak>.<#0875
   - Discord: Aero#0866
+  
+---
