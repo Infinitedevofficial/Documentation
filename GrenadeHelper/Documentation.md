@@ -1,4 +1,4 @@
-## [Return to Main Page](/README.md)
+## [Return](/README.md)
 <a name="-1"></a>
 |Parameters|
 |--------|
@@ -47,6 +47,33 @@
 
 ```json
 "Name" : "CT Spawn",
+```
+
+[return to parameters](#-1)
+
+---
+## <a name="2"></a>Type
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Type | int | GrenadeType |
+
+### Translation
+
+| value | translation |
+| :--- | :--- |
+| 0 | none |
+| 1 | molotov |
+| 2 | he grenade |
+| 3 | smoke |
+| 4 | flashbang |
+
+```json
+"Type" : 1,
 ```
 
 [return to parameters](#-1)
