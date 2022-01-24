@@ -1,28 +1,28 @@
 {
 	"Data": 
-	{
-    "MapName":
+    	{
+        	"MapName":
 		{
 			"Map" : "MapName",
 			"Name" : "LocationName",
 			"Type" : 1,
 			"Position" :
-      {
-        "X" : 0.0,
-        "Y" : 0.0,
-        "Z" : 0.0
-      },
-      "Angle" :
-      {
-        "Pitch" : 0.0,
-        "Yaw" : 0.0
-      },
-      "EyePosition" :
-      {
-        "X" : 0.0,
-        "Y" : 0.0,
-        "Z" : 0.0
-      },
+			{
+			"X" : 0.0,
+			"Y" : 0.0,
+			"Z" : 0.0
+				},
+			"Angle" :
+			{
+				"Pitch" : 0.0,
+				"Yaw" : 0.0
+			},
+			"EyePosition" :
+			{
+				"X" : 0.0,
+				"Y" : 0.0,
+				"Z" : 0.0
+			},
 			"ForceAccuracy" : false,
 			"QuickStop" : false,
 			"Jump" : -1,
@@ -32,5 +32,5 @@
 			"Backward" : -1,
 			"Throw" : 2
 		}
-  } 
+	} 
 }
