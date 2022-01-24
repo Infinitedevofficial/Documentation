@@ -1,1 +1,30 @@
+|Parameters|
+|--------|
+|[Map](#0)|
+|[Name](#1)|
+|[Type](#2)|
+|[Position](#3)|
+|[Angle](#4)|
+|[EyePosition](#5)|
+|[ForceAccuracy](#6)|
+|[QuickStop](#7)|
+|[Jump](#8)|
+|[Crouch](#9)|
+|[Slowwalk](#10)|
+|[Forward](#11)|
+|[Backward](#12)|
+|[Throw](#13)|
 
+---
+# <a name="0"></a>Map
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Map | string | Map Name |
+
+```json
+"Map" : "de_mirage"
+```
