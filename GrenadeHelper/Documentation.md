@@ -1,4 +1,4 @@
-## [return to main page](/README.md)
+## [Back to main page](/README.md)
 ---
 <a name="-1"></a>
 
@@ -369,8 +369,11 @@
 
 **Enable Developer Mode**
 ![](a.png)
+
 **Prints Grenade Position into Console**
+
 ![](a2.png)
+
 ![](a3.png)
 
 
