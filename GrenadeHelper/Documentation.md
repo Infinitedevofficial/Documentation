@@ -368,7 +368,10 @@
 
 
 **Enable Developer Mode**
+
 ![](a.png)
+
+
 
 **Prints Grenade Position into Console**
 
