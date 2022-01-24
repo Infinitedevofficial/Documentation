@@ -1,7 +1,4 @@
-# Useful information
-
-
-## Other helpful information
+## Useful Information
 
 Local Configs are stored in Documents\.Infinite (for example,
 `C:\Users\Oak\Documents\.Infinite\Config.json`)
