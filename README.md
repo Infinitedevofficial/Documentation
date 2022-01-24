@@ -1,4 +1,4 @@
-[![Issues](https://img.shields.io/github/issues/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/danielkrupinski/Osiris/issues)
+[![Issues](https://img.shields.io/github/issues/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/Infinitedevofficial/Documentation/issues)
 
 ## Useful Information
 
@@ -28,8 +28,8 @@ You can edit scripts with any editor you want, make sure to reload the script af
 
 Feel free to contact us:
 
-- [Issues](https://github.com/Infinitedevofficial/Documentation/issues)
-- [Pull Requests](https://github.com/Infinitedevofficial/Documentation/pulls)
+[![Issues](https://img.shields.io/github/issues/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/Infinitedevofficial/Documentation/issues)
+[![Issues](https://img.shields.io/github/pulls/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/Infinitedevofficial/Documentation/pulls)
 - Personal messages to any of documentation maintainer:
   - Discord: Oak>.<#0875
   - Discord: Aero#0866
