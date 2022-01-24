@@ -46,7 +46,7 @@
 | Name | string | Location name |
 
 ```json
-"Name" : "CT Spawn",
+"Name" : "CT Spawn"
 ```
 
 [return to parameters](#-1)
@@ -73,7 +73,43 @@
 | 4 | flashbang |
 
 ```json
-"Type" : 1,
+"Type" : 1
+```
+
+[return to parameters](#-1)
+
+---
+## <a name="3"></a>Position
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Position | Vector3D | Start Location |
+
+### Typename Vector3D
+
+| Name | Type |
+| :--- | :--- |
+| X | int |
+| Y | int |
+| Z | int |
+
+```
+"X" : 0.0,
+"Y" : 0.0,
+"Z" : 0.0
+```
+
+```json
+"Position" :
+{
+  "X" : 0.0,
+  "Y" : 0.0,
+  "Z" : 0.0
+}
 ```
 
 [return to parameters](#-1)
