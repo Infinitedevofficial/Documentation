@@ -1,0 +1,3886 @@
+{
+	"Data": 
+	{
+		"sitefd":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Site Fake Duck",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -2165.284668,
+	"Y" : 439.924530,
+	"Z" : 11776.031250
+},
+"Angle" :
+{
+	"Pitch" : 1.687405,
+	"Yaw" : 87.826172
+},
+"EyePosition" :
+{
+	"X" : -2165.282715,
+	"Y" : 439.924438,
+	"Z" : 11840.093750
+},
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : 33,
+			"Crouch" : -1,
+			"Slowwalk" : 34,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 35
+		},	
+		"box":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Box",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -2151.352051,
+	"Y" : 427.227753,
+	"Z" : 11776.031250
+},
+"Angle" :
+{
+	"Pitch" : -28.555904,
+	"Yaw" : 163.240402
+},
+"EyePosition" :
+{
+	"X" : -2151.353760,
+	"Y" : 427.222626,
+	"Z" : 11840.093750
+},
+
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 3
+		},	
+		"edge":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Back",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -2377.147705,
+				"Y" : 284.048584,
+				"Z" : 11744.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -24.532112,
+				"Yaw" : 41.034435
+			},
+			"EyePosition" :
+			{
+				"X" : -2377.146484,
+				"Y" : 284.046967,
+				"Z" : 11808.093750
+			},
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 3
+		},	
+		"gen":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Generator",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -2378.259521,
+				"Y" : 169.366425,
+				"Z" : 11749.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -1.557531,
+				"Yaw" : 59.401531
+			},
+			"EyePosition" :
+			{
+				"X" : -2378.264404,
+				"Y" : 169.369186,
+				"Z" : 11813.093750
+			},
+
+			"ForceAccuracy" : true,
+			"QuickStop" : false,
+			"Jump" : 15,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},	
+		"t":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "CT",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -2403.898193,
+	"Y" : 313.872040,
+	"Z" : 11744.031250
+},
+"Angle" :
+{
+	"Pitch" : 0.778850,
+	"Yaw" : 35.648636
+},
+"EyePosition" :
+{
+	"X" : -2403.897461,
+	"Y" : 313.871277,
+	"Z" : 11808.093750
+},
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : 15,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},	
+		"heaven":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Heaven",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -2026.986694,
+	"Y" : -562.452454,
+	"Z" : 11776.031250
+},
+"Angle" :
+{
+	"Pitch" : -34.267181,
+	"Yaw" : 66.537964
+},
+"EyePosition" :
+{
+	"X" : -2026.991821,
+	"Y" : -562.450317,
+	"Z" : 11840.093750
+},
+
+
+			"ForceAccuracy" : true,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : 10,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 75
+		},	
+		"vertigogeenrator":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Generator",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -945.440918,
+	"Y" : 743.051331,
+	"Z" : 11776.031250
+},
+"Angle" :
+{
+	"Pitch" : -5.062313,
+	"Yaw" : -179.932861
+},
+"EyePosition" :
+{
+	"X" : -945.440918,
+	"Y" : 743.041260,
+	"Z" : 11840.093750
+},
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : 13,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 15
+		},
+		"bank":
+		{
+			"Map" : "de_bank",
+			"Name" : "Car",
+			"Type" : 1,	
+			"Position" :
+			{
+				"X" : -567.978943,
+				"Y" : -1009.959290,
+				"Z" : 194.004852
+			},
+			"Angle" :
+			{
+				"Pitch" : -10.254248,
+				"Yaw" : 24.166317
+			},
+			"EyePosition" :
+			{
+				"X" : -567.981140,
+				"Y" : -1009.954346,
+				"Z" : 258.067413
+			},
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},
+		"bank4":
+		{
+			"Map" : "de_bank",
+			"Name" : "Car",
+			"Type" : 1,	
+			"Position" :
+{
+	"X" : -9.083940,
+	"Y" : -570.994690,
+	"Z" : 188.031250
+},
+"Angle" :
+{
+	"Pitch" : -7.009088,
+	"Yaw" : 12.157504
+},
+"EyePosition" :
+{
+	"X" : -9.084188,
+	"Y" : -570.993530,
+	"Z" : 252.093811
+},
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 24
+		},
+		"bank5":
+		{
+			"Map" : "de_bank",
+			"Name" : "Truck Front",
+			"Type" : 1,	
+			"Position" :
+{
+	"X" : -101.827682,
+	"Y" : -531.551880,
+	"Z" : 188.031250
+},
+"Angle" :
+{
+	"Pitch" : -9.345470,
+	"Yaw" : -7.248524
+},
+"EyePosition" :
+{
+	"X" : -101.826920,
+	"Y" : -531.545898,
+	"Z" : 252.093811
+},
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 2
+		},
+		
+		"bank2":
+		{
+			"Map" : "de_bank",
+			"Name" : "Swat",
+			"Type" : 1,	
+			"Position" :
+{
+	"X" : -567.976807,
+	"Y" : -962.316223,
+	"Z" : 194.003738
+},
+"Angle" :
+{
+	"Pitch" : 4.413104,
+	"Yaw" : 14.432885
+},
+"EyePosition" :
+{
+	"X" : -567.977112,
+	"Y" : -962.315125,
+	"Z" : 258.066284
+},
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : 20,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 22
+		},
+		"bank3":
+		{
+			"Map" : "de_bank",
+			"Name" : "Swat",
+			"Type" : 1,	
+			"Position" :
+{
+	"X" : -100.841026,
+	"Y" : -642.942017,
+	"Z" : 188.031250
+},
+"Angle" :
+{
+	"Pitch" : -14.667368,
+	"Yaw" : 7.097264
+},
+"EyePosition" :
+{
+	"X" : -100.840698,
+	"Y" : -642.944580,
+	"Z" : 252.093811
+},
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},
+		"vertigoboxfd":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Bombsite",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1313.107178,
+				"Y" : 953.219604,
+				"Z" : 11776.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : 3.115115,
+				"Yaw" : -176.040939
+			},
+			"EyePosition" :
+			{
+				"X" : -1313.107422,
+				"Y" : 953.225281,
+				"Z" : 11840.093750
+			},
+			
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : 16,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 17
+		},
+		"vertigoboxfd2":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Bombsite",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -937.605103,
+				"Y" : 800.614136,
+				"Z" : 11776.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -22.066261,
+				"Yaw" : 177.663544
+			},
+			"EyePosition" :
+			{
+				"X" : -937.605042,
+				"Y" : 800.616211,
+				"Z" : 11840.093750
+			},
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"vertigoboxfd3":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Double Box Fake Duck",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -816.226868,
+				"Y" : 747.741150,
+				"Z" : 11776.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -21.936447,
+				"Yaw" : -177.080582
+			},
+			"EyePosition" :
+			{
+				"X" : -816.226440,
+				"Y" : 747.733643,
+				"Z" : 11840.093750
+			},
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 19
+		},
+		"vertigoedge":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Sandbags | Slow",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -763.395386,
+	"Y" : 841.833862,
+	"Z" : 11776.031250
+},
+"Angle" :
+{
+	"Pitch" : -19.600050,
+	"Yaw" : -169.358353
+},
+"EyePosition" :
+{
+	"X" : -763.396057,
+	"Y" : 841.837524,
+	"Z" : 11840.093750
+},
+
+			"ForceAccuracy" : true,
+			"QuickStop" : false,
+			"Jump" : 33,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 50
+		},
+		
+		"vertigobox":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Double Box Fake Duck",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1327.144287,
+				"Y" : 965.169556,
+				"Z" : 11776.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -21.936363,
+				"Yaw" : -165.786392
+			},
+			"EyePosition" :
+			{
+				"X" : -1327.142456,
+				"Y" : 965.162476,
+				"Z" : 11840.093750
+			},
+			
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 12
+		},
+		"vertigogenerator":
+		{
+			"Map" : "de_vertigo",
+			"Name" : "Generator | From Right",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -1530.888062,
+	"Y" : 927.851929,
+	"Z" : 11776.031250
+},
+"Angle" :
+{
+	"Pitch" : -26.090002,
+	"Yaw" : -121.393578
+},
+"EyePosition" :
+{
+	"X" : -1530.881592,
+	"Y" : 927.847961,
+	"Z" : 11840.093750
+},
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			"Throw" : 2
+		},
+		"oa":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -789.874146,
+				"Y" : 61.753498,
+				"Z" : 82.965836
+			},
+			"Angle" :
+			{
+				"Pitch" : -9.864794,
+				"Yaw" : 124.485352
+			},
+			"EyePosition" :
+			{
+				"X" : -789.874756,
+				"Y" : 61.753101,
+				"Z" : 147.028397
+			},
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},
+		"oa3":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Door",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -869.024231,
+	"Y" : -449.065918,
+	"Z" : 96.031250
+},
+"Angle" :
+{
+	"Pitch" : -1.168200,
+	"Yaw" : 148.580063
+},
+"EyePosition" :
+{
+	"X" : -869.023254,
+	"Y" : -449.064301,
+	"Z" : 160.093811
+},
+			"ForceAccuracy" : false,
+			"Jump" : 8,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 11
+		},
+		"oa2":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1061.565674,
+				"Y" : -634.886780,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -8.047618,
+				"Yaw" : 85.025429
+			},
+			"EyePosition" :
+			{
+				"X" : -1061.572388,
+				"Y" : -634.886169,
+				"Z" : 142.076218
+			},
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : 0,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"oa23":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Bridge Fake Duck | Slow",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -689.001465,
+	"Y" : 89.955017,
+	"Z" : 32.534149
+},
+"Angle" :
+{
+	"Pitch" : -10.903200,
+	"Yaw" : -140.032654
+},
+"EyePosition" :
+{
+	"X" : -688.998535,
+	"Y" : 89.951576,
+	"Z" : 96.596710
+},
+			"ForceAccuracy" : true,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : 11,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 12
+		},
+		"oa232":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Bride Fake Duck | Slow",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -413.016235,
+				"Y" : -979.785400,
+				"Z" : 9.693932
+			},
+			"Angle" :
+			{
+				"Pitch" : -27.940884,
+				"Yaw" : 132.051788
+			},
+			"EyePosition" :
+			{
+				"X" : -413.017975,
+				"Y" : -979.786987,
+				"Z" : 73.756493
+			},
+						
+		
+			"ForceAccuracy" : true,
+			"Jump" : 0,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},
+		"us":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site | Unsafe",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -856.020935,
+				"Y" : -638.446045,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -18.301744,
+				"Yaw" : 104.961113
+			},
+			"EyePosition" :
+			{
+				"X" : -856.015686,
+				"Y" : -638.444641,
+				"Z" : 160.093811
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 14
+		},
+		"usn":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site | Unsafe",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -856.020935,
+				"Y" : -638.446045,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -18.301744,
+				"Yaw" : 104.961113
+			},
+			"EyePosition" :
+			{
+				"X" : -856.015686,
+				"Y" : -638.444641,
+				"Z" : 160.093811
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 14
+		},
+		"us3":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site | Unsafe",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -856.020691,
+				"Y" : -536.499817,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : 8.956353,
+				"Yaw" : 106.324577
+			},
+			"EyePosition" :
+			{
+				"X" : -856.016174,
+				"Y" : -536.498474,
+				"Z" : 160.093811
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 3,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"us3n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site | Unsafe",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : -856.046021,
+	"Y" : -536.506836,
+	"Z" : 96.031250
+},
+"Angle" :
+{
+	"Pitch" : 18.042364,
+	"Yaw" : 106.455078
+},
+"EyePosition" :
+{
+	"X" : -856.046387,
+	"Y" : -536.506958,
+	"Z" : 160.093811
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 3,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"us3n2":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Site Box",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -856.046326,
+				"Y" : -575.075562,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -10.773257,
+				"Yaw" : 115.865677
+			},
+			"EyePosition" :
+			{
+				"X" : -856.050171,
+				"Y" : -575.077454,
+				"Z" : 160.093811
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 2
+		},
+		"us3n3":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site Left",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -968.980713,
+				"Y" : -557.198181,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : 4.413330,
+				"Yaw" : 125.600708
+			},
+			"EyePosition" :
+			{
+				"X" : -968.989380,
+				"Y" : -557.204407,
+				"Z" : 160.093811
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 27,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 28
+		},
+		"us3n3n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Bridge Fake Duck",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1258.584473,
+				"Y" : -758.205627,
+				"Z" : 12.776966
+			},
+			"Angle" :
+			{
+				"Pitch" : -5.321599,
+				"Yaw" : 87.180168
+			},
+			"EyePosition" :
+			{
+				"X" : -1258.590454,
+				"Y" : -758.205322,
+				"Z" : 76.839523
+			},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 27,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 28
+		},
+		
+		"oa23223":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1414.173584,
+				"Y" : -1014.779663,
+				"Z" : 6.483799
+			},
+			"Angle" :
+			{
+				"Pitch" : -1.591636,
+				"Yaw" : 81.493523
+			},
+			"EyePosition" :
+			{
+				"X" : -1414.175537,
+				"Y" : -1014.779419,
+				"Z" : 70.546356
+			},
+									
+		
+			"ForceAccuracy" : false,
+			"Jump" : 7,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 9
+		},
+		"oa23223c":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Bridge Site",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -742.218994,
+	"Y" : -1929.148804,
+	"Z" : 198.656296
+},
+"Angle" :
+{
+	"Pitch" : -1.167644,
+	"Yaw" : 105.093956
+},
+"EyePosition" :
+{
+	"X" : -742.219238,
+	"Y" : -1929.148926,
+	"Z" : 262.718872
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 7,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 9
+		},
+		"oa23223c2":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Bridge Fake Duck",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -479.611877,
+				"Y" : -2034.280518,
+				"Z" : 145.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -2.595477,
+				"Yaw" : 111.260155
+			},
+			"EyePosition" :
+			{
+				"X" : -479.609131,
+				"Y" : -2034.279541,
+				"Z" : 209.093811
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : true,
+			"Jump" : 26,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 29
+		},
+		"oa23223c2n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Walkway",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -536.150696,
+	"Y" : 111.379906,
+	"Z" : 2.551407
+},
+"Angle" :
+{
+	"Pitch" : -1.946425,
+	"Yaw" : -155.803040
+},
+"EyePosition" :
+{
+	"X" : -536.150330,
+	"Y" : 111.379036,
+	"Z" : 66.613968
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 26,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 29
+		},
+		"oa23223c2n3":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Walkway Edge",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -491.674347,
+	"Y" : 94.011253,
+	"Z" : 4.645565
+},
+"Angle" :
+{
+	"Pitch" : 1.558172,
+	"Yaw" : -163.525803
+},
+"EyePosition" :
+{
+	"X" : -491.672943,
+	"Y" : 94.006432,
+	"Z" : 68.708130
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 26,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 29
+		},
+		"na":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Behind Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -478.398804,
+				"Y" : -285.774170,
+				"Z" : 16.619164
+			},
+			"Angle" :
+			{
+				"Pitch" : -21.546293,
+				"Yaw" : 128.848389
+			},
+			"EyePosition" :
+			{
+				"X" : -478.399567,
+				"Y" : -285.774780,
+				"Z" : 80.681725
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 45
+		},
+		"n2a":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Canal 1w",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -821.622131,
+	"Y" : -924.925171,
+	"Z" : 24.700119
+},
+"Angle" :
+{
+	"Pitch" : 3.634927,
+	"Yaw" : -18.020052
+},
+"EyePosition" :
+{
+	"X" : -821.621155,
+	"Y" : -924.922119,
+	"Z" : 88.762680
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 38
+		},
+		"n2ae":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Alley 1w",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -568.194641,
+	"Y" : -1261.259155,
+	"Z" : 122.662140
+},
+"Angle" :
+{
+	"Pitch" : -22.974199,
+	"Yaw" : -69.551201
+},
+"EyePosition" :
+{
+	"X" : -568.196716,
+	"Y" : -1261.259888,
+	"Z" : 186.724701
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 9
+		},
+		"n2aee":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Stairs Corner",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -478.631683,
+				"Y" : -1194.456177,
+				"Z" : 57.483551
+			},
+			"Angle" :
+			{
+				"Pitch" : -24.142508,
+				"Yaw" : -95.185890
+			},
+			"EyePosition" :
+			{
+				"X" : -478.631439,
+				"Y" : -1194.456177,
+				"Z" : 121.546112
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 14
+		},
+		"n2aeee":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Barrels",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1111.883057,
+				"Y" : -566.131714,
+				"Z" : 87.361542
+			},
+			"Angle" :
+			{
+				"Pitch" : -4.153516,
+				"Yaw" : 81.530510
+			},
+			"EyePosition" :
+			{
+				"X" : -1111.886963,
+				"Y" : -566.131165,
+				"Z" : 151.424103
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 12,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 17
+		},
+		"n2aeeee":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Pillar",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -1098.354736,
+	"Y" : -528.574524,
+	"Z" : 92.147934
+},
+"Angle" :
+{
+	"Pitch" : -1.427629,
+	"Yaw" : 83.413048
+},
+"EyePosition" :
+{
+	"X" : -1098.360596,
+	"Y" : -528.573853,
+	"Z" : 156.210495
+},
+
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 24,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 30
+		},
+		"n2aeeeee":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1132.662109,
+				"Y" : -577.139832,
+				"Z" : 77.552582
+			},
+			"Angle" :
+			{
+				"Pitch" : -5.840806,
+				"Yaw" : 86.853073
+			},
+			"EyePosition" :
+			{
+				"X" : -1132.663818,
+				"Y" : -577.139771,
+				"Z" : 141.615143
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 15,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 18
+		},
+		"n22aeeeee":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1100.288452,
+				"Y" : -558.298584,
+				"Z" : 92.745392
+			},
+			"Angle" :
+			{
+				"Pitch" : -0.259418,
+				"Yaw" : 91.785339
+			},
+			"EyePosition" :
+			{
+				"X" : -1100.278931,
+				"Y" : -558.298279,
+				"Z" : 156.807953
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 16,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 20
+		},
+		"asdf":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Pilar",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1413.666504,
+				"Y" : -1015.197083,
+				"Z" : 6.426144
+			},
+			"Angle" :
+			{
+				"Pitch" : -22.844778,
+				"Yaw" : 71.609375
+			},
+			"EyePosition" :
+			{
+				"X" : -1413.666138,
+				"Y" : -1015.197205,
+				"Z" : 70.488708
+			},
+			
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 2
+		},
+		"asdf2":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Barrels",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1369.308350,
+				"Y" : -1048.037476,
+				"Z" : 0.971542
+			},
+			"Angle" :
+			{
+				"Pitch" : -1.168112,
+				"Yaw" : 74.725113
+			},
+			"EyePosition" :
+			{
+				"X" : -1369.311035,
+				"Y" : -1048.036621,
+				"Z" : 65.034103
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 15,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},
+		"asdf3":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Bridge",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -1315.462524,
+	"Y" : -719.788452,
+	"Z" : 7.152901
+},
+"Angle" :
+{
+	"Pitch" : -8.869217,
+	"Yaw" : 141.505875
+},
+"EyePosition" :
+{
+	"X" : -1315.460327,
+	"Y" : -719.785706,
+	"Z" : 71.215462
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 24,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 25
+		},
+		"asdf4":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Short | Look to Short",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -1099.137695,
+	"Y" : -973.538147,
+	"Z" : 0.031250
+},
+"Angle" :
+{
+	"Pitch" : -1.081208,
+	"Yaw" : 158.770462
+},
+"EyePosition" :
+{
+	"X" : -1099.138184,
+	"Y" : -973.539612,
+	"Z" : 64.093811
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 27,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 28
+		},
+		"oa232n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Early Tunnel",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -1548.172119,
+				"Y" : 63.851711,
+				"Z" : 112.713585
+			},
+			"Angle" :
+			{
+				"Pitch" : -17.695457,
+				"Yaw" : -74.304276
+			},
+			"EyePosition" :
+			{
+				"X" : -1548.167969,
+				"Y" : 63.852940,
+				"Z" : 176.776154
+			},	
+		
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 6
+		},
+		"oa2323":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Bridge",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -483.245972,
+				"Y" : -937.647705,
+				"Z" : 6.709526
+			},
+			"Angle" :
+			{
+				"Pitch" : -5.191988,
+				"Yaw" : 138.455750
+			},
+			"EyePosition" :
+			{
+				"X" : -483.248596,
+				"Y" : -937.650635,
+				"Z" : 70.772087
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 16,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 17
+		},
+		"asdf32":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Short Bridge",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -466.513336,
+	"Y" : -1059.973145,
+	"Z" : 19.317253
+},
+"Angle" :
+{
+	"Pitch" : -20.508533,
+	"Yaw" : 104.381599
+},
+"EyePosition" :
+{
+	"X" : -466.518127,
+	"Y" : -1059.974365,
+	"Z" : 83.379814
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 22,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 23
+		},
+		"asdf324":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Monster Pillar",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -156.533798,
+	"Y" : -1010.379883,
+	"Z" : 30.166626
+},
+"Angle" :
+{
+	"Pitch" : -11.682160,
+	"Yaw" : 124.436569
+},
+"EyePosition" :
+{
+	"X" : -156.530548,
+	"Y" : -1010.377625,
+	"Z" : 94.229187
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 22,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 23
+		},	
+		"asdf324n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Monster Pillar",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : -156.533798,
+	"Y" : -1010.379883,
+	"Z" : 30.166626
+},
+"Angle" :
+{
+	"Pitch" : -11.682160,
+	"Yaw" : 124.436569
+},
+"EyePosition" :
+{
+	"X" : -156.530548,
+	"Y" : -1010.377625,
+	"Z" : 94.229187
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 22,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 23
+		},	
+		"oa232n2":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Ideal Tick",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -1305.933472,
+				"Y" : 490.611084,
+				"Z" : 31.049431
+			},
+			"Angle" :
+			{
+				"Pitch" : -22.498100,
+				"Yaw" : -72.616737
+			},
+			"EyePosition" :
+			{
+				"X" : -1305.930786,
+				"Y" : 490.611938,
+				"Z" : 95.111992
+			},
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},
+		
+		"oa2322":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Ideal Tick",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1305.933472,
+				"Y" : 490.611084,
+				"Z" : 31.049431
+			},
+			"Angle" :
+			{
+				"Pitch" : -22.498100,
+				"Yaw" : -72.616737
+			},
+			"EyePosition" :
+			{
+				"X" : -1305.930786,
+				"Y" : 490.611938,
+				"Z" : 95.111992
+			},
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"oa23n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Bridge Fake Duck",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -768.642456,
+				"Y" : 75.046585,
+				"Z" : 72.352570
+			},
+			"Angle" :
+			{
+				"Pitch" : -8.437044,
+				"Yaw" : -138.943375
+			},
+			"EyePosition" :
+			{
+				"X" : -768.635193,
+				"Y" : 75.038300,
+				"Z" : 136.415131
+			},			
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"o32":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Pillar",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1580.345337,
+				"Y" : -784.545593,
+				"Z" : 136.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -10.254188,
+				"Yaw" : 56.988369
+			},
+			"EyePosition" :
+			{
+				"X" : -1580.344849,
+				"Y" : -784.545837,
+				"Z" : 200.093811
+			},
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : 0,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"o322":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Barrel",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1576.662964,
+				"Y" : -592.581604,
+				"Z" : 136.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -18.084921,
+				"Yaw" : 57.961967
+			},
+			"EyePosition" :
+			{
+				"X" : -1576.659424,
+				"Y" : -592.583740,
+				"Z" : 182.076218
+			},
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : 0,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 7
+		},
+		
+		"o3222":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -1734.157837,
+				"Y" : -671.983032,
+				"Z" : 128.281250
+			},
+			"Angle" :
+			{
+				"Pitch" : -12.282292,
+				"Yaw" : 60.038525
+			},
+			"EyePosition" :
+			{
+				"X" : -1734.154053,
+				"Y" : -671.985291,
+				"Z" : 192.343811
+			},
+
+
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : 0,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"o322232":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Heaven Inner",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -867.425781,
+				"Y" : -638.979431,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -3.196303,
+				"Yaw" : 125.263290
+			},
+			"EyePosition" :
+			{
+				"X" : -867.423706,
+				"Y" : -638.977905,
+				"Z" : 160.093811
+			},
+
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : 14,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 17
+		},
+		"o32223232":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Heaven Inner",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -867.425781,
+				"Y" : -638.979431,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -3.196303,
+				"Yaw" : 125.263290
+			},
+			"EyePosition" :
+			{
+				"X" : -867.423706,
+				"Y" : -638.977905,
+				"Z" : 160.093811
+			},
+
+
+			"ForceAccuracy" : false,
+			"QuickStop" : false,
+			"Jump" : 14,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 17
+		},
+		"o3222322":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Heaven Edge",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -910.269775,
+				"Y" : -638.984192,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -0.859901,
+				"Yaw" : 126.041397
+			},
+			"EyePosition" :
+			{
+				"X" : -910.277283,
+				"Y" : -638.989624,
+				"Z" : 160.093811
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 37,
+			"Crouch" : -1,
+			"Slowwalk" : 20,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 40
+		},
+		"o3222324":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Heaven Edge",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -910.269775,
+				"Y" : -638.984192,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : -0.859901,
+				"Yaw" : 126.041397
+			},
+			"EyePosition" :
+			{
+				"X" : -910.277283,
+				"Y" : -638.989624,
+				"Z" : 160.093811
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 37,
+			"Crouch" : -1,
+			"Slowwalk" : 20,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 40
+		},
+		"o32223245":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Under Bridge",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : -762.430664,
+	"Y" : 73.091896,
+	"Z" : 69.249359
+},
+"Angle" :
+{
+	"Pitch" : -7.090309,
+	"Yaw" : 133.311005
+},
+"EyePosition" :
+{
+	"X" : -762.428772,
+	"Y" : 73.093666,
+	"Z" : 133.311920
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 16
+		},
+		"o322232455":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Barrel",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -434.492889,
+	"Y" : -1551.698120,
+	"Z" : 144.031250
+},
+"Angle" :
+{
+	"Pitch" : 3.860135,
+	"Yaw" : 103.041367
+},
+"EyePosition" :
+{
+	"X" : -434.496460,
+	"Y" : -1551.699097,
+	"Z" : 208.093811
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 34,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 35
+		},
+		"o326":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Heaven Edge",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -1220.045044,
+	"Y" : -1039.998047,
+	"Z" : 0.031250
+},
+"Angle" :
+{
+	"Pitch" : -8.600684,
+	"Yaw" : 104.142944
+},
+"EyePosition" :
+{
+	"X" : -1220.041260,
+	"Y" : -1039.997070,
+	"Z" : 64.093811
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 34,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 35
+		},
+		"o3262":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Heaven Inner",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -1576.605347,
+	"Y" : -827.629456,
+	"Z" : 136.031250
+},
+"Angle" :
+{
+	"Pitch" : 4.768711,
+	"Yaw" : 96.225212
+},
+"EyePosition" :
+{
+	"X" : -1576.611816,
+	"Y" : -827.630188,
+	"Z" : 200.093811
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 14,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 15
+		},
+		"o3262n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Heaven Inner",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : -1576.605347,
+	"Y" : -827.629456,
+	"Z" : 136.031250
+},
+"Angle" :
+{
+	"Pitch" : 4.768711,
+	"Yaw" : 96.225212
+},
+"EyePosition" :
+{
+	"X" : -1576.611816,
+	"Y" : -827.630188,
+	"Z" : 200.093811
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 24,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 25
+		},
+		"o3263":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Door",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -1141.928223,
+	"Y" : -615.234558,
+	"Z" : 74.922920
+},
+"Angle" :
+{
+	"Pitch" : 0.259585,
+	"Yaw" : 138.762772
+},
+"EyePosition" :
+{
+	"X" : -1141.923706,
+	"Y" : -615.229370,
+	"Z" : 138.985474
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : true,
+			"Jump" : 8,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 9
+		},
+		"o3263n":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Walkway",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -870.583740,
+				"Y" : -343.597534,
+				"Z" : 96.031250
+			},
+			"Angle" :
+			{
+				"Pitch" : 1.557597,
+				"Yaw" : -167.420288
+			},
+			"EyePosition" :
+			{
+				"X" : -870.584900,
+				"Y" : -343.592438,
+				"Z" : 160.093811
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 8,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 9
+		},
+		"o3263nn":
+		{
+			"Map" : "de_overpass",
+			"Name" : "Walkway",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -207.256805,
+	"Y" : -965.284546,
+	"Z" : 21.261890
+},
+"Angle" :
+{
+	"Pitch" : -3.894107,
+	"Yaw" : 161.604279
+},
+"EyePosition" :
+{
+	"X" : -207.257675,
+	"Y" : -965.287109,
+	"Z" : 85.324448
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 17,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 19
+		},
+		
+		"a":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Tetris",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -799.615112,
+				"Y" : -1555.075684,
+				"Z" : -167.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : -23.233953,
+				"Yaw" : 6.053244
+			},
+			"EyePosition" :
+			{
+				"X" : -799.614929,
+				"Y" : -1555.077759,
+				"Z" : -103.906189
+			},
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"a2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Tetris",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -799.615112,
+				"Y" : -1555.075684,
+				"Z" : -167.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : -23.233953,
+				"Yaw" : 6.053244
+			},
+			"EyePosition" :
+			{
+				"X" : -799.614929,
+				"Y" : -1555.077759,
+				"Z" : -103.906189
+			},
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 4
+		},
+		"b":
+		{
+			"Map" : "de_mirage",
+			"Name" : "CT Stairs | Crouch Throw",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -47.662186,
+				"Y" : -1548.145020,
+				"Z" : -167.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : -51.530567,
+				"Yaw" : 165.577194
+			},
+			"EyePosition" :
+			{
+				"X" : -47.660843,
+				"Y" : -1548.139648,
+				"Z" : -121.923782
+			},
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : 0,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 3
+		},
+		"b2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "CT Stairs",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 121.606369,
+				"Y" : -1571.015747,
+				"Z" : -174.070435
+			},
+			"Angle" :
+			{
+				"Pitch" : -23.623569,
+				"Yaw" : 170.509720
+			},
+			"EyePosition" :
+			{
+				"X" : 121.606186,
+				"Y" : -1571.016846,
+				"Z" : -110.007874
+			},			
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 8
+		},
+		"c":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Ideal Tick",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 618.075867,
+				"Y" : -1251.997314,
+				"Z" : -253.377167
+			},
+			"Angle" :
+			{
+				"Pitch" : 3.951382,
+				"Yaw" : -0.177733
+			},
+			"EyePosition" :
+			{
+				"X" : 618.075867,
+				"Y" : -1251.998901,
+				"Z" : -189.314606
+			},
+			
+			"ForceAccuracy" : false,
+			"Jump" : 6,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 9
+		},
+		"c2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Ideal Tick",
+			"Type" : 1,
+						
+			"Position" :
+			{
+				"X" : 621.074402,
+				"Y" : -1390.693970,
+				"Z" : -262.721771
+			},
+			"Angle" :
+			{
+				"Pitch" : 0.346648,
+				"Yaw" : 42.915916
+			},
+			"EyePosition" :
+			{
+				"X" : 621.078369,
+				"Y" : -1390.698364,
+				"Z" : -198.659210
+			},
+
+			"ForceAccuracy" : false,
+			"Jump" : 15,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 18
+		},
+		"c3":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 1141.626221,
+				"Y" : -913.269653,
+				"Z" : -263.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 7.355803,
+				"Yaw" : 84.971092
+			},
+			"EyePosition" :
+			{
+				"X" : 1141.627563,
+				"Y" : -913.269714,
+				"Z" : -199.906189
+			},
+
+
+
+			"ForceAccuracy" : false,
+			"Jump" : 16,
+			"Crouch" : 17,
+			"Slowwalk" : 17,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 18
+		},
+		"c4":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 318.507965,
+				"Y" : -1678.806519,
+				"Z" : -175.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 12.028584,
+				"Yaw" : 121.834717
+			},
+			"EyePosition" :
+			{
+				"X" : 318.511078,
+				"Y" : -1678.804565,
+				"Z" : -111.906189
+			},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : 23,
+			"Crouch" : 24,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c42":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Palace",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 63.341984,
+				"Y" : -1448.092773,
+				"Z" : -175.903885
+			},
+			"Angle" :
+			{
+				"Pitch" : 4.630042,
+				"Yaw" : -93.698418
+			},
+			"EyePosition" :
+			{
+				"X" : 63.346218,
+				"Y" : -1448.093018,
+				"Z" : -111.841324
+			},
+
+
+
+			"ForceAccuracy" : false,
+			"Jump" : 23,
+			"Crouch" : 24,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c42n":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Palace",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 63.341984,
+				"Y" : -1448.092773,
+				"Z" : -175.903885
+			},
+			"Angle" :
+			{
+				"Pitch" : 4.630042,
+				"Yaw" : -93.698418
+			},
+			"EyePosition" :
+			{
+				"X" : 63.346218,
+				"Y" : -1448.093018,
+				"Z" : -111.841324
+			},
+
+
+
+			"ForceAccuracy" : false,
+			"Jump" : 23,
+			"Crouch" : 24,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c42n2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 460.974640,
+				"Y" : -1461.834473,
+				"Z" : -175.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 23.580751,
+				"Yaw" : -153.017639
+			},
+			"EyePosition" :
+			{
+				"X" : 460.973999,
+				"Y" : -1461.833130,
+				"Z" : -111.906189
+			},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : 18,
+			"Crouch" : 19,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 20
+		},
+		"c42n22":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 460.975037,
+				"Y" : -1458.343506,
+				"Z" : -175.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 32.666843,
+				"Yaw" : -152.757614
+			},
+			"EyePosition" :
+			{
+				"X" : 460.976898,
+				"Y" : -1458.347290,
+				"Z" : -111.906189
+			},
+			"ForceAccuracy" : false,
+			"Jump" : 18,
+			"Crouch" : 19,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 20
+		},
+		"c42n2223":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Middle Tetris CT Stairs",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 512.696289,
+				"Y" : -1649.368530,
+				"Z" : -263.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 6.317414,
+				"Yaw" : 168.757858
+			},
+			"EyePosition" :
+			{
+				"X" : 512.697510,
+				"Y" : -1649.362427,
+				"Z" : -199.906189
+			},
+			
+			"ForceAccuracy" : false,
+			"Jump" : 27,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 28
+		},
+		"c42n2223n":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Middle Tetris CT Stairs",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 512.696289,
+				"Y" : -1649.368530,
+				"Z" : -263.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 6.317414,
+				"Yaw" : 168.757858
+			},
+			"EyePosition" :
+			{
+				"X" : 512.697510,
+				"Y" : -1649.362427,
+				"Z" : -199.906189
+			},
+			
+			"ForceAccuracy" : false,
+			"Jump" : 27,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 28
+		},
+		"c42n22232n":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Palace",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 578.039917,
+				"Y" : -1461.344727,
+				"Z" : -257.845490
+			},
+			"Angle" :
+			{
+				"Pitch" : 2.163807,
+				"Yaw" : 45.383327
+			},
+			"EyePosition" :
+			{
+				"X" : 578.042480,
+				"Y" : -1461.347168,
+				"Z" : -193.782928
+			},
+			
+			"ForceAccuracy" : false,
+			"Jump" : 31,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 33
+		},
+		"TSpawn":
+		{
+			"Map" : "de_mirage",
+			"Name" : "T Spawn",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 531.422363,
+				"Y" : -1565.900635,
+				"Z" : -263.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : -18.214733,
+				"Yaw" : 45.381828
+			},
+			"EyePosition" :
+			{
+				"X" : 531.424377,
+				"Y" : -1565.902710,
+				"Z" : -217.923782
+			},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : 13,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 14
+		},
+		"TSpawn2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "T Spawn",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 531.422363,
+				"Y" : -1565.900635,
+				"Z" : -263.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : -18.214733,
+				"Yaw" : 45.381828
+			},
+			"EyePosition" :
+			{
+				"X" : 531.424377,
+				"Y" : -1565.902710,
+				"Z" : -217.923782
+			},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : 13,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 14
+		},
+		"c42n22233":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w [unsafe]",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 460.962280,
+	"Y" : -1436.020508,
+	"Z" : -175.968750
+},
+"Angle" :
+{
+	"Pitch" : 27.864206,
+	"Yaw" : -148.993896
+},
+"EyePosition" :
+{
+	"X" : 460.960632,
+	"Y" : -1436.017700,
+	"Z" : -111.906189
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : 33,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 34
+		},
+		"c42n222332":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w [unsafe]",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : 460.960846,
+	"Y" : -1436.018188,
+	"Z" : -175.968750
+},
+"Angle" :
+{
+	"Pitch" : 37.729000,
+	"Yaw" : -148.863968
+},
+"EyePosition" :
+{
+	"X" : 460.960602,
+	"Y" : -1436.017822,
+	"Z" : -111.906189
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : 33,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 34
+		},
+		"c42n222":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Ramp",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : -185.769089,
+				"Y" : -2032.270386,
+				"Z" : -167.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 16.441780,
+				"Yaw" : 55.701935
+			},
+			"EyePosition" :
+			{
+				"X" : -185.773560,
+				"Y" : -2032.267334,
+				"Z" : -103.906189
+			},
+			
+
+			
+			"ForceAccuracy" : false,
+			"Jump" : 25,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 28
+		},
+		
+		"c4n":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 318.507965,
+				"Y" : -1678.806519,
+				"Z" : -175.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 12.028584,
+				"Yaw" : 121.834717
+			},
+			"EyePosition" :
+			{
+				"X" : 318.511078,
+				"Y" : -1678.804565,
+				"Z" : -111.906189
+			},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : 23,
+			"Crouch" : 24,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c4n2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 2,
+			"Position" :
+			{
+				"X" : 1140.815308,
+				"Y" : -911.284729,
+				"Z" : -263.931580
+			},
+			"Angle" :
+			{
+				"Pitch" : 7.355803,
+				"Yaw" : 84.971092
+			},
+			"EyePosition" :
+			{
+				"X" : 1140.817017,
+				"Y" : -911.284851,
+				"Z" : -199.869019
+			},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : 23,
+			"Crouch" : 24,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c4n22":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : 1157.415894,
+	"Y" : -1470.564941,
+	"Z" : -167.968750
+},
+"Angle" :
+{
+	"Pitch" : 16.052402,
+	"Yaw" : 35.971695
+},
+"EyePosition" :
+{
+	"X" : 1157.418945,
+	"Y" : -1470.569214,
+	"Z" : -103.906189
+},
+			"ForceAccuracy" : false,
+			"Jump" : 25,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c4n222":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 1157.415894,
+	"Y" : -1470.564941,
+	"Z" : -167.968750
+},
+"Angle" :
+{
+	"Pitch" : 16.052402,
+	"Yaw" : 35.971695
+},
+"EyePosition" :
+{
+	"X" : 1157.418945,
+	"Y" : -1470.569214,
+	"Z" : -103.906189
+},
+			"ForceAccuracy" : false,
+			"Jump" : 25,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c4n2222":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w Further",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 1203.043457,
+	"Y" : -1479.965210,
+	"Z" : -167.968750
+},
+"Angle" :
+{
+	"Pitch" : 11.639196,
+	"Yaw" : 50.379303
+},
+"EyePosition" :
+{
+	"X" : 1203.047852,
+	"Y" : -1479.968872,
+	"Z" : -103.906189
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : 25,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c4n2222n":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w Further",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : 1203.043457,
+	"Y" : -1479.965210,
+	"Z" : -167.968750
+},
+"Angle" :
+{
+	"Pitch" : 11.639196,
+	"Yaw" : 50.379303
+},
+"EyePosition" :
+{
+	"X" : 1203.047852,
+	"Y" : -1479.968872,
+	"Z" : -103.906189
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : 25,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 26
+		},
+		"c4n2222n2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 326.929352,
+	"Y" : -2190.254150,
+	"Z" : -39.968750
+},
+"Angle" :
+{
+	"Pitch" : -1.210983,
+	"Yaw" : -124.850250
+},
+"EyePosition" :
+{
+	"X" : 326.931549,
+	"Y" : -2190.255859,
+	"Z" : 24.093811
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 17
+		},
+		"c4n22222n2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "1w",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : 326.929352,
+	"Y" : -2190.254150,
+	"Z" : -39.968750
+},
+"Angle" :
+{
+	"Pitch" : -1.210983,
+	"Yaw" : -124.850250
+},
+"EyePosition" :
+{
+	"X" : 326.931549,
+	"Y" : -2190.255859,
+	"Z" : 24.093811
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 17
+		},
+		"2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Top",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : 1381.673950,
+	"Y" : -602.202148,
+	"Z" : -167.968750
+},
+"Angle" :
+{
+	"Pitch" : -17.306303,
+	"Yaw" : -131.860275
+},
+"EyePosition" :
+{
+	"X" : 1381.669067,
+	"Y" : -602.197876,
+	"Z" : -103.906189
+},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 5
+		},
+		"3":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Ramp",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 1381.673950,
+	"Y" : -602.202148,
+	"Z" : -167.968750
+},
+"Angle" :
+{
+	"Pitch" : -17.306303,
+	"Yaw" : -131.860275
+},
+"EyePosition" :
+{
+	"X" : 1381.669067,
+	"Y" : -602.197876,
+	"Z" : -103.906189
+},
+
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 5
+		},
+		"4":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Corner",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 956.532104,
+	"Y" : -1200.403198,
+	"Z" : -108.968750
+},
+"Angle" :
+{
+	"Pitch" : -14.840005,
+	"Yaw" : -154.121353
+},
+"EyePosition" :
+{
+	"X" : 956.534546,
+	"Y" : -1200.408203,
+	"Z" : -44.906189
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 5
+		},
+		"4n":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Corner",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : 956.532104,
+	"Y" : -1200.403198,
+	"Z" : -108.968750
+},
+"Angle" :
+{
+	"Pitch" : -14.840005,
+	"Yaw" : -154.121353
+},
+"EyePosition" :
+{
+	"X" : 956.534546,
+	"Y" : -1200.408203,
+	"Z" : -44.906189
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 5
+		},
+		"4n2":
+		{
+			"Map" : "de_mirage",
+			"Name" : "Place",
+			"Type" : 2,
+			"Position" :
+{
+	"X" : 1408.927490,
+	"Y" : -340.835419,
+	"Z" : -167.968750
+},
+"Angle" :
+{
+	"Pitch" : 22.023239,
+	"Yaw" : 113.394615
+},
+"EyePosition" :
+{
+	"X" : 1408.931396,
+	"Y" : -340.833740,
+	"Z" : -103.906189
+},
+
+			"ForceAccuracy" : false,
+			"Jump" : 19,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 20
+		},
+		"de_train_site":
+		{
+			"Map" : "de_train",
+			"Name" : "Left Site",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 225.282578,
+	"Y" : 305.034546,
+	"Z" : -215.968750
+},
+"Angle" :
+{
+	"Pitch" : -8.004923,
+	"Yaw" : -34.599464
+},
+"EyePosition" :
+{
+	"X" : 225.280441,
+	"Y" : 305.031464,
+	"Z" : -151.906189
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 40,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 42
+		},
+		"de_train_site2":
+		{
+			"Map" : "de_train",
+			"Name" : "Right Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -170.479752,
+				"Y" : 258.696381,
+				"Z" : -215.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : -7.355964,
+				"Yaw" : -28.109865
+			},
+			"EyePosition" :
+			{
+				"X" : -170.483780,
+				"Y" : 258.688812,
+				"Z" : -151.906189
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 26,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 30
+		},
+		"de_train_site3":
+		{
+			"Map" : "de_train",
+			"Name" : "Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : 10.659350,
+				"Y" : 305.017426,
+				"Z" : -215.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : -2.683132,
+				"Yaw" : -29.407543
+			},
+			"EyePosition" :
+			{
+				"X" : 10.657028,
+				"Y" : 305.013306,
+				"Z" : -151.906189
+			},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 26,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 30
+		},
+		"de_train_site4":
+		{
+			"Map" : "de_train",
+			"Name" : "Corner Left Site",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -38.746769,
+				"Y" : 418.983643,
+				"Z" : -215.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 0.432105,
+				"Yaw" : -19.088345
+			},
+			"EyePosition" :
+			{
+				"X" : -38.746918,
+				"Y" : 418.983215,
+				"Z" : -151.906189
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 17,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 18
+		},
+		"de_train_site5":
+		{
+			"Map" : "de_train",
+			"Name" : "Left Site",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -39.330120,
+	"Y" : 418.945282,
+	"Z" : -215.968750
+},
+"Angle" :
+{
+	"Pitch" : -5.408873,
+	"Yaw" : -18.828531
+},
+"EyePosition" :
+{
+	"X" : -39.331272,
+	"Y" : 418.941925,
+	"Z" : -151.906189
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 17,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 18
+		},
+		"de_train_heaven":
+		{
+			"Map" : "de_train",
+			"Name" : "Heaven | Slow",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -391.053864,
+	"Y" : 417.039703,
+	"Z" : -215.968750
+},
+"Angle" :
+{
+	"Pitch" : -4.630089,
+	"Yaw" : -33.691536
+},
+"EyePosition" :
+{
+	"X" : -391.053925,
+	"Y" : 417.039612,
+	"Z" : -151.906189
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : true,
+			"Jump" : 17,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 19
+		},
+		"de_train_heaven2":
+		{
+			"Map" : "de_train",
+			"Name" : "Heaven",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 132.170837,
+	"Y" : 479.339508,
+	"Z" : -218.414917
+},
+"Angle" :
+{
+	"Pitch" : -32.147640,
+	"Yaw" : -57.315277
+},
+"EyePosition" :
+{
+	"X" : 132.176590,
+	"Y" : 479.343201,
+	"Z" : -154.352356
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 2
+		},
+		"de_train_connector":
+		{
+			"Map" : "de_train",
+			"Name" : "Deep Connector",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 154.042633,
+	"Y" : 598.012451,
+	"Z" : -215.968750
+},
+"Angle" :
+{
+	"Pitch" : -19.037920,
+	"Yaw" : -68.737259
+},
+"EyePosition" :
+{
+	"X" : 154.049393,
+	"Y" : 598.015137,
+	"Z" : -151.906189
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 2
+		},"de_train_connector2":
+		{
+			"Map" : "de_train",
+			"Name" : "Connector",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 97.754135,
+	"Y" : 607.927002,
+	"Z" : -215.968765
+},
+"Angle" :
+{
+	"Pitch" : -19.946527,
+	"Yaw" : -60.624569
+},
+"EyePosition" :
+{
+	"X" : 97.748528,
+	"Y" : 607.923767,
+	"Z" : -151.906204
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : -1,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 6
+		},"de_train_heaven4":
+		{
+			"Map" : "de_train",
+			"Name" : "Heaven",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -277.533813,
+	"Y" : 676.292786,
+	"Z" : -215.968750
+},
+"Angle" :
+{
+	"Pitch" : -6.577112,
+	"Yaw" : -45.372467
+},
+"EyePosition" :
+{
+	"X" : -277.530365,
+	"Y" : 676.296204,
+	"Z" : -151.906189
+},
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 5,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : -1,
+			
+			
+			"Throw" : 6
+		},"de_train_iv":
+		{
+			"Map" : "de_train",
+			"Name" : "Ivy",
+			"Type" : 1,
+			"Position" :
+			{
+				"X" : -943.502625,
+				"Y" : 498.706604,
+				"Z" : -219.968750
+			},
+			"Angle" :
+			{
+				"Pitch" : 0.432055,
+				"Yaw" : 0.121887
+			},
+			"EyePosition" :
+			{
+				"X" : -943.502625,
+				"Y" : 498.700958,
+				"Z" : -155.906189
+			},
+			
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 23,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 24
+		},"de_train_iv2":
+		{
+			"Map" : "de_train",
+			"Name" : "Top Ivy",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : -941.483887,
+	"Y" : 531.539429,
+	"Z" : -215.968750
+},
+"Angle" :
+{
+	"Pitch" : 1.730069,
+	"Yaw" : -0.007847
+},
+"EyePosition" :
+{
+	"X" : -941.483826,
+	"Y" : 531.542725,
+	"Z" : -151.906189
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : false,
+			"Jump" : 23,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : 0,
+			"Backward" : -1,
+			
+			
+			"Throw" : 24
+		},"de_train_iv3":
+		{
+			"Map" : "de_train",
+			"Name" : "Ivy | Slow",
+			"Type" : 1,
+			"Position" :
+{
+	"X" : 293.836304,
+	"Y" : 462.714844,
+	"Z" : -215.968750
+},
+"Angle" :
+{
+	"Pitch" : -0.865958,
+	"Yaw" : 2.457634
+},
+"EyePosition" :
+{
+	"X" : 293.836212,
+	"Y" : 462.717987,
+	"Z" : -151.906189
+},
+
+			"QuickStop" : false,
+			"ForceAccuracy" : true,
+			"Jump" : 32,
+			"Crouch" : -1,
+			"Slowwalk" : -1,
+			"Forward" : -1,
+			"Backward" : 0,
+			
+			
+			"Throw" : 34
+		}
+	}
+	
+}
