@@ -14,14 +14,22 @@ Local Grenade Helpers are stored in Documents\.Infinite\GrenadeHelper (for examp
 
 You can edit scripts with any editor you want, make sure to reload the script after saving.
 
+---
 
+## Grenade Helper
+---
 [Grenade Helper Documentation](/GrenadeHelper/Documentation.md)
 
+[Grenade Helper Example](/GrenadeHelper/Example.json)
+
+[Grenade Helper Template](/GrenadeHelper/Template.json)
+---
 ## Found a mistake in documentation?
 
 Feel free to contact us:
 
-- [Issues](https://github.com/neverlosecc/api-documentation/issues)
-- [Pull Requests](https://github.com/neverlosecc/api-documentation/pulls)
+- [Issues](https://github.com/Infinitedevofficial/Documentation/issues)
+- [Pull Requests](https://github.com/Infinitedevofficial/Documentation/pulls)
 - Personal messages to any of documentation maintainer:
-  - Telegram: @elleqt1337
+  - Discord: Oak>.<#0875
+  - Discord: Aero#0866
