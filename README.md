@@ -1,3 +1,5 @@
+[![Issues](https://img.shields.io/github/issues/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/danielkrupinski/Osiris/issues)
+
 ## Useful Information
 
 Local Configs are stored in Documents\.Infinite (for example,
