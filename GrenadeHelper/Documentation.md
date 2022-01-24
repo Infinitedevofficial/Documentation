@@ -115,3 +115,246 @@
 [return to parameters](#-1)
 
 ---
+## <a name="4"></a>Angle
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Angle | QAngle | Throw Angle |
+
+### Typename QAngle
+
+| Name | Type |
+| :--- | :--- |
+| Pitch | int |
+| Yaw | int |
+
+```
+"Pitch" : 0.0,
+"Yaw" : 0.0
+```
+
+```json
+"Angle" :
+{
+  "Pitch" : 0.0,
+  "Yaw" : 0.0
+},
+```
+
+[return to parameters](#-1)
+
+---
+## <a name="5"></a>EyePosition
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| EyePosition | Vector3D | Start Eye position |
+
+### Typename Vector3D
+
+| Name | Type |
+| :--- | :--- |
+| X | int |
+| Y | int |
+| Z | int |
+
+```
+"X" : 0.0,
+"Y" : 0.0,
+"Z" : 0.0
+```
+
+```json
+"EyePosition" :
+{
+  "X" : 0.0,
+  "Y" : 0.0,
+  "Z" : 0.0
+}
+```
+
+[return to parameters](#-1)
+
+---
+## <a name="6"></a>ForceAccuracy
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| ForceAccuracy | bool | Must be 1:1 on the Throw Position |
+
+
+```json
+"ForceAccuracy" : false
+```
+
+[return to parameters](#-1)
+
+--- 
+## <a name="7"></a>QuickStop
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| QuickStop | bool | Enable Quickstop after Throw |
+
+
+```json
+"QuickStop" : false
+```
+
+[return to parameters](#-1)
+
+--- 
+## <a name="8"></a>Jump
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Jump | int | Jump Tick |
+
+### Translation
+
+| value | translation |
+| :--- | :--- |
+| -1 | disabled |
+
+```json
+"Jump" : -1
+```
+
+[return to parameters](#-1)
+
+--- 
+## <a name="9"></a>Crouch
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Crouch | int | Crouch Tick |
+
+### Translation
+
+| value | translation |
+| :--- | :--- |
+| -1 | disabled |
+
+```json
+"Crouch" : -1
+```
+
+[return to parameters](#-1)
+
+--- 
+## <a name="10"></a>Slowwalk
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Slowwalk | int | Start Slowwalk Tick |
+
+### Translation
+
+| value | translation |
+| :--- | :--- |
+| -1 | disabled |
+
+```json
+"Slowwalk" : -1
+```
+
+[return to parameters](#-1)
+
+--- 
+## <a name="11"></a>Forward
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Forward | int | Start Forward Tick |
+
+### Translation
+
+| value | translation |
+| :--- | :--- |
+| -1 | disabled |
+
+```json
+"Forward" : -1
+```
+
+[return to parameters](#-1)
+
+--- 
+## <a name="12"></a>Backward
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Backward | int | Start Backward Tick |
+
+### Translation
+
+| value | translation |
+| :--- | :--- |
+| -1 | disabled |
+
+```json
+"Backward" : -1
+```
+
+[return to parameters](#-1)
+
+--- 
+## <a name="13"></a>Throw
+
+---
+
+### Information:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Throw | int | Throw Backward Tick |
+
+### Translation
+
+| value | translation |
+| :--- | :--- |
+| -1 | disabled |
+
+```json
+"Throw" : 2
+```
+
+[return to parameters](#-1)
+
+--- 
