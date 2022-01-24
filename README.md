@@ -1,5 +1,3 @@
-[![Issues](https://img.shields.io/github/issues/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/Infinitedevofficial/Documentation/issues)
-
 ## Useful Information
 
 Local Configs are stored in Documents\.Infinite (for example,
@@ -15,7 +13,7 @@ You can edit scripts with any editor you want, make sure to reload the script af
 
 ---
 
-## Grenade Helper
+### Grenade Helper
 
 [Grenade Helper Documentation](/GrenadeHelper/Documentation.md)
 
@@ -24,12 +22,12 @@ You can edit scripts with any editor you want, make sure to reload the script af
 [Grenade Helper Template](/GrenadeHelper/Template.json)
 
 ---
-## Found a mistake in documentation?
+### Found a mistake in documentation? or requre support?
 
 Feel free to contact us:
 
 [![Issues](https://img.shields.io/github/issues/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/Infinitedevofficial/Documentation/issues)
-[![Issues](https://img.shields.io/github/pulls/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/Infinitedevofficial/Documentation/pulls)
+
 - Personal messages to any of documentation maintainer:
   - Discord: Oak>.<#0875
   - Discord: Aero#0866
