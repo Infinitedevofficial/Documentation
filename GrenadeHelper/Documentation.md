@@ -1,7 +1,7 @@
-### [return to main page](/README.md)
+## [return to main page](/README.md)
 <a name="-1"></a>
 
-## [Developer Mode](#14)
+### [Developer Mode](#14)
 
 |Parameters|
 |--------|
