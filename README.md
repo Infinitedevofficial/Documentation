@@ -12,14 +12,21 @@ Local Grenade Helpers are stored in `Documents\.Infinite\GrenadeHelper` (for exa
 You can edit scripts with any editor you want, make sure to reload the script after saving.
 
 ---
+### LUA
+
+[Documentation](/Lua/Documentation.md)
+
+[Example](/Lua/Example.lua)
+
+---
 
 ### Grenade Helper
 
-[Grenade Helper Documentation](/GrenadeHelper/Documentation.md)
+[Documentation](/GrenadeHelper/Documentation.md)
 
-[Grenade Helper Example](/GrenadeHelper/Example.json)
+[Example](/GrenadeHelper/Example.json)
 
-[Grenade Helper Template](/GrenadeHelper/Template.json)
+[Template](/GrenadeHelper/Template.json)
 
 ---
 ### Found a mistake in documentation? or requre support?
