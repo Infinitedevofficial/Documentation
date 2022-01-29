@@ -34,7 +34,7 @@ Built in Libraries: ffi bit
 ## Menu.CreateMenu
 
 
-### Parameters:
+#### Parameters:
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
@@ -50,4 +50,5 @@ Menu.CreateMenu(Vector2D.new(40,40),Vector2D.new(365,150),"Test Menu", true)
 ```
 
 [back to Contents](#-1)
+
 ---
