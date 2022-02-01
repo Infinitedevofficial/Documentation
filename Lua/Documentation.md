@@ -857,3 +857,34 @@ end)
 
 ---
 
+# <a name="7"></a>Netvars
+---
+
+### Netvars.GetOffset
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| table | string | 
+| name | string |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| netvar offset | int | 
+
+
+```lua
+local m_flDuckAmountOffset = Netvars.GetOffset("DT_CSPlayer", "m_flDuckAmount")
+```
+
+
+
+
+[back to Contents](#-1)
+
+---
+
