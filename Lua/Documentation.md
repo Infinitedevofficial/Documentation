@@ -44,6 +44,7 @@ Built in Libraries: ffi bit
 |[PaintFontCreationFlags](#34)|
 |[Stages](#35)|
 |[CBasePlayer](#36)|
+|[Virtual Key](#37)|
 
 ---
 
@@ -1138,6 +1139,119 @@ GlobalVariables.Client()
 ```
 
 
+
+
+[back to Contents](#-1)
+
+---
+
+# <a name="8"></a>InputSystem
+---
+
+### InputSystem.IsKeyPressed
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| virtual key | int | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is pressed | bool | 
+
+
+```lua
+InputSystem.IsKeyPressed(0x09) --vk_tab or tab key
+--true if we are holding the tab key
+```
+
+### InputSystem.IsKeyToggled
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| virtual key | int | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| did the key toggle | bool | 
+
+
+```lua
+InputSystem.IsKeyPressed(0x09) --vk_tab or tab key
+--true if we are toggle the key [once]
+```
+
+### InputSystem.GetCursorPosition
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| cursor position | Vector2D | 
+
+
+```lua
+InputSystem.GetCursorPosition() 
+--mouse cursor position
+```
+
+### InputSystem.MouseLeftState
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| mouse left state | float | 
+
+
+```lua
+InputSystem.MouseLeftState()
+--value is 0 if clicked once or above 0 if being held down or -1 if not used
+```
+
+### InputSystem.MouseRightState
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| mouse left state | float | 
+
+
+```lua
+InputSystem.MouseRightState()
+--value is 0 if clicked once or above 0 if being held down or -1 if not used
+```
 
 
 [back to Contents](#-1)
