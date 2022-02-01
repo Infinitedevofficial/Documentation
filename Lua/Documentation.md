@@ -522,3 +522,229 @@ ClientState.GetLastOutgoingCommand()
 
 ---
 
+# <a name="3"></a>Event
+---
+
+### Event.RegisterListener
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| listener | function | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+function OnEventFired() 
+
+end
+
+Event.RegisterListener(OnEventFired)
+
+--or
+
+Event.RegisterListener(function()
+
+end)
+```
+
+
+### Event.GetName
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Event name | string | 
+
+
+```lua
+Event.RegisterListener(function()
+  if Event.IsServerEvent() then
+    return
+  end
+  
+  local EventName = Event.GetName() --event name
+end)
+```
+
+### Event.IsServerEvent
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is server event | bool | 
+
+
+```lua
+Event.RegisterListener(function()
+  if Event.IsServerEvent() then -- true if its a server event
+    return
+  end
+  
+  local EventName = Event.GetName() 
+end)
+```
+
+### Event.GetBool
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| key | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | bool | 
+
+
+```lua
+Event.RegisterListener(function()
+  if Event.IsServerEvent() then
+    return
+  end
+  
+  if Event.GetName() ~= "player_death" then
+    return
+  end
+  
+  if Event.GetBool("assistedflash") then --get bool usage
+    Print("Someone Assisted this kill with a flash!")
+  end
+  
+end)
+```
+
+### Event.GetFloat
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| key | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | float | 
+
+
+```lua
+Event.RegisterListener(function()
+  if Event.IsServerEvent() then
+    return
+  end
+  
+  if Event.GetName() ~= "player_death" then
+    return
+  end
+  
+  
+  Print(Event.GetFloat("distance")) -- distance from localplayer to the player whom died
+  
+  
+end)
+```
+
+### Event.GetInt
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| key | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | float | 
+
+
+```lua
+Event.RegisterListener(function()
+  if Event.IsServerEvent() then
+    return
+  end
+  
+  if Event.GetName() ~= "player_death" then
+    return
+  end
+  
+  
+  Print(Event.GetInt("distance")) -- distance from localplayer to the player whom died in integer form
+  
+  
+end)
+```
+
+
+### Event.GetString
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| key | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | float | 
+
+
+```lua
+Event.RegisterListener(function()
+  if Event.IsServerEvent() then
+    return
+  end
+  
+  if Event.GetName() ~= "player_death" then
+    return
+  end
+  
+  
+  Print(Event.GetString("weapon")) -- the weapon name that the killer used to kill the dead player
+  
+  
+end)
+```
+
+
+
+
+[back to Contents](#-1)
+
+---
+
