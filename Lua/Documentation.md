@@ -1511,3 +1511,116 @@ Cvar.GetBool(svcheats) --this will be true or false
 
 ---
 
+# <a name="11"></a>AntiAim
+---
+
+### AntiAim.IsInverted
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| inverter state | bool | 
+
+
+```lua
+AntiAim.IsInverted()
+--true if inverted
+```
+
+### AntiAim.GetRange
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| range | float | 
+
+
+```lua
+AntiAim.GetRange()
+--between 0.0-120.0 depending on current desync range
+```
+
+### AntiAim.SetRange
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| overriden range | float | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+AntiAim.SetRange(90) --will set our desync range to 90/2 or 45
+```
+
+### AntiAim.SetInverterState
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new state | bool | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+AntiAim.SetInverterState(true) --will set our inverter to right instead of left
+```
+
+
+### AntiAim.IsPeeking
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is peeking | bool | 
+
+
+```lua
+AntiAim.IsPeeking()
+--true if peeking
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
