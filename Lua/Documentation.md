@@ -45,6 +45,7 @@ Built in Libraries: ffi bit
 |[Stages](#35)|
 |[CBasePlayer](#36)|
 |[Virtual Key](#37)|
+|[ConVar](#38)|
 
 ---
 
@@ -1347,6 +1348,161 @@ Memory.GetProcessAddress("vstdlib.dll", "RandomSeed")
 ```lua
 Memory.GetInterfaceAddress("client.dll", "GameMovement001")
 --gets the interface pointer of GameMovement001
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
+# <a name="10"></a>Cvar
+---
+
+### Cvar.FindCvar
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| cvar name | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| cvar | ConVar | 
+
+
+```lua
+local svcheats = Cvar.FindCvar("sv_cheats")
+```
+
+### Cvar.IsValid
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| cvar | ConVar | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| isvalid | bool | 
+
+
+```lua
+local invalid = Cvar.FindCvar("invalidcvar")
+Cvar.IsValid(invalid) --this will be false because the cvar doesnt exist
+```
+
+### Cvar.InvalidCvar
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| invalid cvar value | ConVar | 
+
+
+```lua
+local invalid = Cvar.FindCvar("invalidcvar")
+invalid == Cvar.InvalidCvar() --this will be true because the cvar doesnt exist
+```
+
+### Cvar.GetString
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| cvar | ConVar | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | string | 
+
+
+```lua
+local svcheats = Cvar.FindCvar("sv_cheats")
+Cvar.GetString(svcheats) --this will be "0" or "1"
+```
+
+### Cvar.GetInt
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| cvar | ConVar | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | int | 
+
+
+```lua
+local svcheats = Cvar.FindCvar("sv_cheats")
+Cvar.GetInt(svcheats) --this will be 0 or 1
+```
+
+### Cvar.GetFloat
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| cvar | ConVar | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | float | 
+
+
+```lua
+local svcheats = Cvar.FindCvar("sv_cheats")
+Cvar.GetFloat(svcheats) --this will be 0.0 or 1.0
+```
+
+### Cvar.GetBool
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| cvar | ConVar | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | bool | 
+
+
+```lua
+local svcheats = Cvar.FindCvar("sv_cheats")
+Cvar.GetBool(svcheats) --this will be true or false
 ```
 
 
