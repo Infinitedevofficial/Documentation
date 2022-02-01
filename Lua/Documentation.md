@@ -301,3 +301,134 @@ Engine.SetViewAngles(Vector.Get(0,89,0))
 [back to Contents](#-1)
 
 ---
+
+# <a name="3"></a>DebugOverlay
+---
+
+### DebugOverlay.AddBox
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| origin | Vector | 
+| mins | Vector |
+| maxs | Vector |
+| orientation | Vector |
+| color | Color |
+| duration | float |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+DebugOverlay.AddBox(Vector.Get(0,0,0), Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Vector.Get(0,0,0), Color.Get(255,255,255,255), 3.0)
+```
+
+### DebugOverlay.AddCapsule
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| mins | Vector |
+| maxs | Vector |
+| radius | float |
+| color | Color |
+| duration | float |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+DebugOverlay.AddCapsule(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), 10.0, Color.Get(255,255,255,255), 3.0)
+```
+
+### DebugOverlay.AddLine
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| start | Vector |
+| end | Vector |
+| color | Color |
+| duration | float |
+| disabledepth [optional] | bool |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,255,255), 3.0)
+```
+
+### DebugOverlay.AddSphere
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| center | Vector |
+| theta | int |
+| phi | int |
+| radius | float |
+| color | Color |
+| duration | float |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+--preview unavailable
+```
+
+### DebugOverlay.AddTriangle
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| point 1 | Vector |
+| point 2 | Vector |
+| point 3 | Vector |
+| color | Color |
+| duration | float |
+| disabledepth [optional] | bool |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,255,255), 3.0)
+```
+
+
+[back to Contents](#-1)
+
+---
