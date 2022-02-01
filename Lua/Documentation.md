@@ -2454,3 +2454,266 @@ Doubletap.SetTolerance(3)
 
 ---
 
+## <a name="18"></a>EntityList
+---
+
+#### EntityList.NumberOfPlayers
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| number of players | int | 
+
+
+```lua
+EntityList.NumberOfPlayers()
+```
+
+#### EntityList.NumberOfEntities
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| include non networkable | bool | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| number of entities | int | 
+
+
+```lua
+EntityList.NumberOfEntities()
+```
+
+
+#### EntityList.GetHighestEntityIndex
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| highest entity index | int | 
+
+
+```lua
+EntityList.GetHighestEntityIndex()
+```
+
+
+#### EntityList.GetEntityFromHandle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| handle | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entity | CBasePlayer | 
+
+
+```lua
+EntityList.GetEntityFromHandle(somehandle)
+```
+
+
+
+#### EntityList.GetLocalPlayer
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| local player | CBasePlayer | 
+
+
+```lua
+EntityList.GetLocalPlayer()
+```
+
+
+#### EntityList.GetEntityFromUserID
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| user id | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entity | CBasePlayer | 
+
+
+```lua
+EntityList.GetEntityFromUserID(SomeUserID)
+```
+
+
+
+#### EntityList.GetEntitiesByClassName
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| class name | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entities | table of CBasePlayer | 
+
+
+```lua
+EntityList.GetEntitiesByClassName("CBasePlayer")
+```
+
+
+#### EntityList.GetEntitiesByClassID
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| class id | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entities | table of CBasePlayer | 
+
+
+```lua
+EntityList.GetEntitiesByClassID(157) --smoke
+```
+
+
+#### EntityList.GetEntities
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entities | table of CBasePlayer | 
+
+
+```lua
+EntityList.GetEntities()
+```
+
+
+#### EntityList.GetValidPlayers
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entities | table of CBasePlayer | 
+
+
+```lua
+EntityList.GetValidPlayers()
+```
+
+
+#### EntityList.GetOpponents
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entities | table of CBasePlayer | 
+
+
+```lua
+EntityList.GetOpponents()
+```
+
+
+#### EntityList.GetPlayers
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| entities | table of CBasePlayer | 
+
+
+```lua
+EntityList.GetPlayers()
+```
+
+
+
+
+
+[back to Contents](#-1)
+
+---
+
