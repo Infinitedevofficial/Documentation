@@ -857,7 +857,7 @@ end)
 
 ---
 
-# <a name="7"></a>Netvars
+# <a name="6"></a>Netvars
 ---
 
 ### Netvars.GetOffset
