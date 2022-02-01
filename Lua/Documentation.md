@@ -1828,3 +1828,57 @@ Client.TicksToTime(16)
 
 ---
 
+## <a name="13"></a>Fakelag
+---
+
+#### Fakelag.OverridePacket
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new state | bool | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Fakelag.OverridePacket(true)
+--if true we will send packet if false we will not send packet
+```
+
+#### Fakelag.GetChokedPackets
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Choked Packets | int | 
+
+
+```lua
+Fakelag.GetChokedPackets()
+--ammount of choked packets
+```
+
+
+
+
+[back to Contents](#-1)
+
+---
+
