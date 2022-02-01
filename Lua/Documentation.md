@@ -1,4 +1,4 @@
-#### [Back to main page](/README.md)
+##### [Back to main page](/README.md)
 
 ---
 
@@ -53,20 +53,20 @@ Built in Libraries: ffi bit
 
 ---
 
-# <a name="0"></a>Penetration
+## <a name="0"></a>Penetration
 ---
 
-### Penetration.CanPenetrate
+#### Penetration.CanPenetrate
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | start | Vector | 
 | end | Vector |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -79,10 +79,10 @@ Penetration.CanPenetrate(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Ent
 ```
 
 
-### Penetration.PredictDamage
+#### Penetration.PredictDamage
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type | 
 | :--- | :--- |
@@ -90,7 +90,7 @@ Penetration.CanPenetrate(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Ent
 | end | Vector | 
 | target | CBasePlayer |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- | 
@@ -111,20 +111,20 @@ Penetration.PredictDamage(Entity.GetEyePosition(EntityList.GetLocalPlayer()), En
 ---
 
 
-# <a name="1"></a>Trace
+## <a name="1"></a>Trace
 ---
 
 
-### Trace.GetPointContents
+#### Trace.GetPointContents
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type | 
 | :--- | :--- | 
 | point | Vector |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- | 
@@ -136,20 +136,20 @@ Trace.GetPointContents(Entity.GetEyePosition(EntityList.GetLocalPlayer()))
 --will get point contents of local eye position 
 ```
 
-### Trace.GetPointContentsWorld
+#### Trace.GetPointContentsWorld
 
 
 
 **Only returns world contents**
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | point | Vector | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- | 
@@ -162,10 +162,10 @@ Trace.GetPointContentsWorld(Entity.GetEyePosition(EntityList.GetLocalPlayer()))
 ```
 
 
-### Trace.Line
+#### Trace.Line
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
@@ -174,7 +174,7 @@ Trace.GetPointContentsWorld(Entity.GetEyePosition(EntityList.GetLocalPlayer()))
 | skip [-1 if no player] | CBasePlayer | 
 | mask | int | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- |
@@ -186,10 +186,10 @@ Trace.Line(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePos
 --1.0 means our line did not hit anything
 ```
 
-### Trace.Ray
+#### Trace.Ray
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
@@ -200,7 +200,7 @@ Trace.Line(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePos
 | skip | CBasePlayer | player skipped [-1 if no player] |
 | mask | int | Trace Mask |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
@@ -219,20 +219,20 @@ Trace.Ray(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosi
 
 ---
 
-# <a name="2"></a>Engine
+## <a name="2"></a>Engine
 ---
 
 
-### Engine.ExecuteClientCommand
+#### Engine.ExecuteClientCommand
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type | 
 | :--- | :--- |
 | command | string |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -243,16 +243,16 @@ Engine.ExecuteClientCommand("say hello from oak!")
 --will say hello in chat
 ```
 
-### Engine.GetGameDirectory
+#### Engine.GetGameDirectory
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -264,16 +264,16 @@ local gamedirectory = Engine.GetGameDirectory()
 --this will be your game directory
 ```
 
-### Engine.GetLevelName
+#### Engine.GetLevelName
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -285,16 +285,16 @@ local levelname = Engine.GetLevelName()
 --your level name
 ```
 
-### Engine.GetLevelNameShort
+#### Engine.GetLevelNameShort
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -306,16 +306,16 @@ local levelname = Engine.GetLevelNameShort()
 --your level name
 ```
 
-### Engine.GetLocalPlayer
+#### Engine.GetLocalPlayer
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -327,16 +327,16 @@ local localplayer = Engine.GetLocalPlayer()
 --this gets local player but you can also use EntityList.GetLocalPlayer()
 ```
 
-### Engine.GetMapGroupName
+#### Engine.GetMapGroupName
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -348,16 +348,16 @@ local groupname = Engine.GetMapGroupName()
 --map group name
 ```
 
-### Engine.GetMaxClients
+#### Engine.GetMaxClients
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -369,16 +369,16 @@ local numclients = Engine.GetMaxClients()
 --total clients, you can also use EntityList.NumberOfPlayers() or GlobalVariables.TotalClients()
 ```
 
-### Engine.GetViewAngles
+#### Engine.GetViewAngles
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -390,16 +390,16 @@ local viewangle = Engine.GetViewAngles()
 --this gets the local viewangle
 ```
 
-### Engine.SetViewAngles
+#### Engine.SetViewAngles
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- |
 | Viewangle | Vector |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
@@ -417,13 +417,13 @@ Engine.SetViewAngles(Vector.Get(0,89,0))
 
 ---
 
-# <a name="3"></a>DebugOverlay
+## <a name="3"></a>DebugOverlay
 ---
 
-### DebugOverlay.AddBox
+#### DebugOverlay.AddBox
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
@@ -434,7 +434,7 @@ Engine.SetViewAngles(Vector.Get(0,89,0))
 | color | Color |
 | duration | float |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -445,10 +445,10 @@ Engine.SetViewAngles(Vector.Get(0,89,0))
 DebugOverlay.AddBox(Vector.Get(0,0,0), Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Vector.Get(0,0,0), Color.Get(255,255,255,255), 3.0)
 ```
 
-### DebugOverlay.AddCapsule
+#### DebugOverlay.AddCapsule
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
@@ -458,7 +458,7 @@ DebugOverlay.AddBox(Vector.Get(0,0,0), Vector.Get(-5,-5,-5), Vector.Get(5,5,5), 
 | color | Color |
 | duration | float |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -469,10 +469,10 @@ DebugOverlay.AddBox(Vector.Get(0,0,0), Vector.Get(-5,-5,-5), Vector.Get(5,5,5), 
 DebugOverlay.AddCapsule(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), 10.0, Color.Get(255,255,255,255), 3.0)
 ```
 
-### DebugOverlay.AddLine
+#### DebugOverlay.AddLine
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
@@ -482,7 +482,7 @@ DebugOverlay.AddCapsule(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), 10.0, Color.Get
 | duration | float |
 | disabledepth [optional] | bool |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -493,10 +493,10 @@ DebugOverlay.AddCapsule(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), 10.0, Color.Get
 DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,255,255), 3.0)
 ```
 
-### DebugOverlay.AddSphere
+#### DebugOverlay.AddSphere
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
@@ -507,7 +507,7 @@ DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,
 | color | Color |
 | duration | float |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -518,10 +518,10 @@ DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,
 --preview unavailable
 ```
 
-### DebugOverlay.AddTriangle
+#### DebugOverlay.AddTriangle
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
@@ -532,7 +532,7 @@ DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,
 | duration | float |
 | disabledepth [optional] | bool |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -548,19 +548,19 @@ DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,
 
 ---
 
-# <a name="4"></a>ClientState
+## <a name="4"></a>ClientState
 ---
 
-### ClientState.GetChokedCommands
+#### ClientState.GetChokedCommands
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -572,16 +572,16 @@ ClientState.GetChokedCommands()
 -- can range from 0 to sv_maxusercmdprocessticks depending on how much ticks we choked
 ```
 
-### ClientState.GetCommandAck
+#### ClientState.GetCommandAck
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -592,16 +592,16 @@ ClientState.GetChokedCommands()
 ClientState.GetCommandAck()
 ```
 
-### ClientState.GetLastOutgoingAck
+#### ClientState.GetLastOutgoingAck
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -612,16 +612,16 @@ ClientState.GetCommandAck()
 ClientState.GetLastOutgoingAck()
 ```
 
-### ClientState.GetLastOutgoingCommand
+#### ClientState.GetLastOutgoingCommand
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | | |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -637,19 +637,19 @@ ClientState.GetLastOutgoingCommand()
 
 ---
 
-# <a name="5"></a>Event
+## <a name="5"></a>Event
 ---
 
-### Event.RegisterListener
+#### Event.RegisterListener
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | listener | function | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -671,16 +671,16 @@ end)
 ```
 
 
-### Event.GetName
+#### Event.GetName
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | | | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -697,16 +697,16 @@ Event.RegisterListener(function()
 end)
 ```
 
-### Event.IsServerEvent
+#### Event.IsServerEvent
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | | | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -723,16 +723,16 @@ Event.RegisterListener(function()
 end)
 ```
 
-### Event.GetBool
+#### Event.GetBool
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | key | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -756,16 +756,16 @@ Event.RegisterListener(function()
 end)
 ```
 
-### Event.GetFloat
+#### Event.GetFloat
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | key | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -789,16 +789,16 @@ Event.RegisterListener(function()
 end)
 ```
 
-### Event.GetInt
+#### Event.GetInt
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | key | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -823,16 +823,16 @@ end)
 ```
 
 
-### Event.GetString
+#### Event.GetString
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | key | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -863,20 +863,20 @@ end)
 
 ---
 
-# <a name="6"></a>Netvars
+## <a name="6"></a>Netvars
 ---
 
-### Netvars.GetOffset
+#### Netvars.GetOffset
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | table | string | 
 | name | string |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -894,20 +894,20 @@ local m_flDuckAmountOffset = Netvars.GetOffset("DT_CSPlayer", "m_flDuckAmount")
 
 ---
 
-# <a name="7"></a>GlobalVariables
+## <a name="7"></a>GlobalVariables
 ---
 
-### GlobalVariables.Realtime
+#### GlobalVariables.Realtime
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -919,17 +919,17 @@ GlobalVariables.Realtime()
 --time since csgo started
 ```
 
-### GlobalVariables.Framecount
+#### GlobalVariables.Framecount
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -941,17 +941,17 @@ GlobalVariables.Framecount()
 --total frames rendered
 ```
 
-### GlobalVariables.AbsoluteFrametime
+#### GlobalVariables.AbsoluteFrametime
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -963,17 +963,17 @@ GlobalVariables.AbsoluteFrametime()
 --very accurate frametime
 ```
 
-### GlobalVariables.Frametime
+#### GlobalVariables.Frametime
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -985,17 +985,17 @@ GlobalVariables.Frametime()
 --less accurate frametime
 ```
 
-### GlobalVariables.Curtime
+#### GlobalVariables.Curtime
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1007,17 +1007,17 @@ GlobalVariables.Curtime()
 --current server time
 ```
 
-### GlobalVariables.TotalClients
+#### GlobalVariables.TotalClients
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1030,17 +1030,17 @@ GlobalVariables.TotalClients()
 ```
 
 
-### GlobalVariables.Tickcount
+#### GlobalVariables.Tickcount
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1052,17 +1052,17 @@ GlobalVariables.Tickcount()
 --client tickcount
 ```
 
-### GlobalVariables.IntervalPerTick
+#### GlobalVariables.IntervalPerTick
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1075,17 +1075,17 @@ GlobalVariables.IntervalPerTick()
 ```
 
 
-### GlobalVariables.InterpolationAmmount
+#### GlobalVariables.InterpolationAmmount
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1099,17 +1099,17 @@ GlobalVariables.InterpolationAmmount()
 
 
 
-### GlobalVariables.NetworkProtocol
+#### GlobalVariables.NetworkProtocol
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1122,17 +1122,17 @@ GlobalVariables.NetworkProtocol()
 ```
 
 
-### GlobalVariables.Client
+#### GlobalVariables.Client
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 |  |  |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1150,19 +1150,19 @@ GlobalVariables.Client()
 
 ---
 
-# <a name="8"></a>InputSystem
+## <a name="8"></a>InputSystem
 ---
 
-### InputSystem.IsKeyPressed
+#### InputSystem.IsKeyPressed
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | virtual key | int | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1174,16 +1174,16 @@ InputSystem.IsKeyPressed(0x09) --vk_tab or tab key
 --true if we are holding the tab key
 ```
 
-### InputSystem.IsKeyToggled
+#### InputSystem.IsKeyToggled
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | virtual key | int | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1195,16 +1195,16 @@ InputSystem.IsKeyPressed(0x09) --vk_tab or tab key
 --true if we are toggle the key [once]
 ```
 
-### InputSystem.GetCursorPosition
+#### InputSystem.GetCursorPosition
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1216,16 +1216,16 @@ InputSystem.GetCursorPosition()
 --mouse cursor position
 ```
 
-### InputSystem.MouseLeftState
+#### InputSystem.MouseLeftState
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1237,16 +1237,16 @@ InputSystem.MouseLeftState()
 --value is 0 if clicked once or above 0 if being held down or -1 if not used
 ```
 
-### InputSystem.MouseRightState
+#### InputSystem.MouseRightState
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1263,20 +1263,20 @@ InputSystem.MouseRightState()
 
 ---
 
-# <a name="9"></a>Memory
+## <a name="9"></a>Memory
 ---
 
-### Memory.FindSignature
+#### Memory.FindSignature
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | module name | string | 
 | signature | string |
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1288,16 +1288,16 @@ Memory.FindSignature("engine.dll", "53 56 57 8B DA 8B F9 FF 15")
 --setclantag pointer
 ```
 
-### Memory.GetModuleHandle
+#### Memory.GetModuleHandle
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | module name | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1309,17 +1309,17 @@ Memory.GetModuleHandle("engine.dll")
 --handle or base address of engine.dll
 ```
 
-### Memory.GetProcessAddress
+#### Memory.GetProcessAddress
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | module name | string | 
 | process name | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1332,17 +1332,17 @@ Memory.GetProcessAddress("vstdlib.dll", "RandomSeed")
 ```
 
 
-### Memory.GetInterfaceAddress
+#### Memory.GetInterfaceAddress
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | module name | string | 
 | interface version | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1360,19 +1360,19 @@ Memory.GetInterfaceAddress("client.dll", "GameMovement001")
 
 ---
 
-# <a name="10"></a>Cvar
+## <a name="10"></a>Cvar
 ---
 
-### Cvar.FindCvar
+#### Cvar.FindCvar
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | cvar name | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1383,16 +1383,16 @@ Memory.GetInterfaceAddress("client.dll", "GameMovement001")
 local svcheats = Cvar.FindCvar("sv_cheats")
 ```
 
-### Cvar.IsValid
+#### Cvar.IsValid
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | cvar | ConVar | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1404,16 +1404,16 @@ local invalid = Cvar.FindCvar("invalidcvar")
 Cvar.IsValid(invalid) --this will be false because the cvar doesnt exist
 ```
 
-### Cvar.InvalidCvar
+#### Cvar.InvalidCvar
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1425,16 +1425,16 @@ local invalid = Cvar.FindCvar("invalidcvar")
 invalid == Cvar.InvalidCvar() --this will be true because the cvar doesnt exist
 ```
 
-### Cvar.GetString
+#### Cvar.GetString
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | cvar | ConVar | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1446,16 +1446,16 @@ local svcheats = Cvar.FindCvar("sv_cheats")
 Cvar.GetString(svcheats) --this will be "0" or "1"
 ```
 
-### Cvar.GetInt
+#### Cvar.GetInt
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | cvar | ConVar | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1467,16 +1467,16 @@ local svcheats = Cvar.FindCvar("sv_cheats")
 Cvar.GetInt(svcheats) --this will be 0 or 1
 ```
 
-### Cvar.GetFloat
+#### Cvar.GetFloat
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | cvar | ConVar | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1488,16 +1488,16 @@ local svcheats = Cvar.FindCvar("sv_cheats")
 Cvar.GetFloat(svcheats) --this will be 0.0 or 1.0
 ```
 
-### Cvar.GetBool
+#### Cvar.GetBool
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | cvar | ConVar | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1515,19 +1515,19 @@ Cvar.GetBool(svcheats) --this will be true or false
 
 ---
 
-# <a name="11"></a>AntiAim
+## <a name="11"></a>AntiAim
 ---
 
-### AntiAim.IsInverted
+#### AntiAim.IsInverted
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1539,16 +1539,16 @@ AntiAim.IsInverted()
 --true if inverted
 ```
 
-### AntiAim.GetRange
+#### AntiAim.GetRange
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1560,16 +1560,16 @@ AntiAim.GetRange()
 --between 0.0-120.0 depending on current desync range
 ```
 
-### AntiAim.SetRange
+#### AntiAim.SetRange
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | overriden range | float | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1580,16 +1580,16 @@ AntiAim.GetRange()
 AntiAim.SetRange(90) --will set our desync range to 90/2 or 45
 ```
 
-### AntiAim.SetInverterState
+#### AntiAim.SetInverterState
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | new state | bool | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1601,16 +1601,16 @@ AntiAim.SetInverterState(true) --will set our inverter to right instead of left
 ```
 
 
-### AntiAim.IsPeeking
+#### AntiAim.IsPeeking
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1628,19 +1628,19 @@ AntiAim.IsPeeking()
 
 ---
 
-# <a name="12"></a>Client
+## <a name="12"></a>Client
 ---
 
-### Client.GetDelay
+#### Client.GetDelay
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1652,16 +1652,16 @@ Client.GetDelay()
 --returns ping
 ```
 
-### Client.GetTime
+#### Client.GetTime
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1674,16 +1674,16 @@ Client.GetTime()
 ```
 
 
-### Client.GetUsername
+#### Client.GetUsername
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1695,16 +1695,16 @@ Client.GetUsername()
 --gives client username
 ```
 
-### Client.GetConnectedAddress
+#### Client.GetConnectedAddress
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1717,16 +1717,16 @@ Client.GetConnectedAddress()
 ```
 
 
-### Client.IsConnected
+#### Client.IsConnected
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1738,16 +1738,16 @@ Client.IsConnected()
 --if true we are connected to a server
 ```
 
-### Client.IsInGame
+#### Client.IsInGame
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 |  |  | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1759,17 +1759,17 @@ Client.IsInGame()
 --if true we are in a game or match
 ```
 
-### Client.SetClantag
+#### Client.SetClantag
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | clantag | string | 
 | clanname | string | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1781,16 +1781,16 @@ Client.SetClantag("Infinite", "Infinite.dev")
 --sets clantag
 ```
 
-### Client.TimeToTicks
+#### Client.TimeToTicks
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
 | time | float | 
 
-#### Returns:
+##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
@@ -1802,16 +1802,16 @@ Client.TimeToTicks(1.0)
 --1 second to ticks
 ```
 
-### Client.TicksToTime
+#### Client.TicksToTime
 
 
-#### Parameters:
+##### Parameters:
 
 | Name | Type | 
 | :--- | :--- |
 | ticks | int |
 
-#### Returns:
+##### Returns:
 
 | Name | Type |
 | :--- | :--- | 
