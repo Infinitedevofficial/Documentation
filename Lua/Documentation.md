@@ -55,16 +55,16 @@ Built in Libraries: ffi bit
 
 #### Parameters:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| start | Vector | start position |
-| end | Vector | end position |
+| Name | Type |
+| :--- | :--- | 
+| start | Vector | 
+| end | Vector |
 
 #### Returns:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| penetration | bool | can penetrate |
+| Name | Type | 
+| :--- | :--- |
+| penetration | bool | 
 
 
 ```lua
@@ -78,17 +78,17 @@ Penetration.CanPenetrate(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Ent
 
 #### Parameters:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| start | Vector | start position |
-| end | Vector | end position |
-| target | CBasePlayer | target |
+| Name | Type | 
+| :--- | :--- |
+| start | Vector | 
+| end | Vector | 
+| target | CBasePlayer |
 
 #### Returns:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| damage | int | predicted damage |
+| Name | Type | 
+| :--- | :--- | 
+| damage | int |
 
 
 ```lua
@@ -104,108 +104,49 @@ Penetration.PredictDamage(Entity.GetEyePosition(EntityList.GetLocalPlayer()), En
 
 ---
 
-# <a name="1"></a>Trace
+# <a name="2"></a>Engine
 ---
 
 
-### Trace.GetPointContents
+### Engine.ExecuteClientCommand
 
 
 #### Parameters:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| point | Vector | position |
+| Name | Type | 
+| :--- | :--- |
+| command | string |
 
 #### Returns:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| contents | int | point contents |
+| Name | Type | 
+| :--- | :--- |
 
 
 ```lua
-Trace.GetPointContents(Entity.GetEyePosition(EntityList.GetLocalPlayer())) 
---will get point contents of local eye position 
+Engine.ExecuteClientCommand("say hello from oak!")
+--will say hello in chat
 ```
 
-### Trace.GetPointContentsWorld
-
-
-
-**Only returns world contents**
+### Engine.GetGameDirectory
 
 
 #### Parameters:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| point | Vector | position |
+| Name | Type |
+| :--- | :--- |
 
 #### Returns:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| contents | int | point contents |
+| Name | Type |
+| :--- | :--- | 
+| game directory | string |
 
 
 ```lua
-Trace.GetPointContentsWorld(Entity.GetEyePosition(EntityList.GetLocalPlayer())) 
---will get point contents of local eye position
+local gamedirectory = Engine.GetGameDirectory()
+--this will be your game directory
 ```
-
-
-### Trace.Line
-
-
-#### Parameters:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| start | Vector | start position |
-| end | Vector | end position |
-| skip | CBasePlayer | player skipped [-1 if no player] |
-| mask | int | Trace Mask |
-
-#### Returns:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| Trace | CGameTrace | trace result |
-
-
-```lua
-Trace.Line(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0), -1, 0x1).fraction == 1.0
---1.0 means our line did not hit anything
-```
-
-### Trace.Ray
-
-
-#### Parameters:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| start | Vector | start position |
-| end | Vector | end position |
-| mins | Vector | bounding box min |
-| max | Vector | bounding box max |
-| skip | CBasePlayer | player skipped [-1 if no player] |
-| mask | int | Trace Mask |
-
-#### Returns:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| Trace | CGameTrace | trace result |
-
-
-```lua
-Trace.Ray(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0), Vector.Get(-2,-2,-2), Vector.Get(2,2,2), -1, 0x1).fraction == 1.0
---1.0 means our line did not hit anything
-```
-
-
 
 
 [back to Contents](#-1)
