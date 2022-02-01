@@ -104,6 +104,115 @@ Penetration.PredictDamage(Entity.GetEyePosition(EntityList.GetLocalPlayer()), En
 
 ---
 
+
+# <a name="1"></a>Trace
+---
+
+
+### Trace.GetPointContents
+
+
+#### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| point | Vector | position |
+
+#### Returns:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| contents | int | point contents |
+
+
+```lua
+Trace.GetPointContents(Entity.GetEyePosition(EntityList.GetLocalPlayer())) 
+--will get point contents of local eye position 
+```
+
+### Trace.GetPointContentsWorld
+
+
+
+**Only returns world contents**
+
+
+#### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| point | Vector | position |
+
+#### Returns:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| contents | int | point contents |
+
+
+```lua
+Trace.GetPointContentsWorld(Entity.GetEyePosition(EntityList.GetLocalPlayer())) 
+--will get point contents of local eye position
+```
+
+
+### Trace.Line
+
+
+#### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| start | Vector | start position |
+| end | Vector | end position |
+| skip | CBasePlayer | player skipped [-1 if no player] |
+| mask | int | Trace Mask |
+
+#### Returns:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Trace | CGameTrace | trace result |
+
+
+```lua
+Trace.Line(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0), -1, 0x1).fraction == 1.0
+--1.0 means our line did not hit anything
+```
+
+### Trace.Ray
+
+
+#### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| start | Vector | start position |
+| end | Vector | end position |
+| mins | Vector | bounding box min |
+| max | Vector | bounding box max |
+| skip | CBasePlayer | player skipped [-1 if no player] |
+| mask | int | Trace Mask |
+
+#### Returns:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Trace | CGameTrace | trace result |
+
+
+```lua
+Trace.Ray(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0), Vector.Get(-2,-2,-2), Vector.Get(2,2,2), -1, 0x1).fraction == 1.0
+--1.0 means our line did not hit anything
+```
+
+
+
+
+[back to Contents](#-1)
+
+---
+
 # <a name="2"></a>Engine
 ---
 
