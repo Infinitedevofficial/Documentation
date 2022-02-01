@@ -1258,3 +1258,100 @@ InputSystem.MouseRightState()
 
 ---
 
+# <a name="9"></a>Memory
+---
+
+### Memory.FindSignature
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| module name | string | 
+| signature | string |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| pointer | int | 
+
+
+```lua
+Memory.FindSignature("engine.dll", "53 56 57 8B DA 8B F9 FF 15")
+--setclantag pointer
+```
+
+### Memory.GetModuleHandle
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| module name | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| handle | int | 
+
+
+```lua
+Memory.GetModuleHandle("engine.dll")
+--handle or base address of engine.dll
+```
+
+### Memory.GetProcessAddress
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| module name | string | 
+| process name | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| process pointer | int | 
+
+
+```lua
+Memory.GetProcessAddress("vstdlib.dll", "RandomSeed")
+--process address of RandomSeed
+```
+
+
+### Memory.GetInterfaceAddress
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| module name | string | 
+| interface version | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| interface pointer | int | 
+
+
+```lua
+Memory.GetInterfaceAddress("client.dll", "GameMovement001")
+--gets the interface pointer of GameMovement001
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
