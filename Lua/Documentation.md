@@ -5,7 +5,7 @@ Built in Libraries: ffi bit
 
 <a name="-1"></a>
 
-|Tables|
+|Index|
 |--------|
 |[Penetration](#0)| 
 |[Trace](#1)| 
@@ -33,6 +33,16 @@ Built in Libraries: ffi bit
 |[World](#23)|
 |[Console](#24)|
 |[Callback](#25)|
+|[Vector](#26)|
+|[Vector2D](#27)|
+|[Color](#28)|
+|[CGameTrace](#29)|
+|[PlayerInfo_t](#30)|
+|[ResolveData](#31)|
+|[PaintStringRenderFlags](#32)|
+|[SurfaceStringRenderFlags](#33)|
+|[PaintFontCreationFlags](#34)|
+|[Stages](#35)|
 
 ---
 
@@ -62,79 +72,7 @@ Built in Libraries: ffi bit
 Menu.CreateMenu(Vector2D.new(40,40),Vector2D.new(365,150),"Test Menu", true)
 ```
 
-### Menu.GetMainMenu
 
-**Returns Main menu as string**
-
-```lua
-local MainMenuHandle = Menu.OpenMenu(Menu.GetMainMenu())
-```
-
-### Menu.InvalidHandle
-
-**Returns Invalid Handle as int**
-
-```lua
-local ismenuvalid = Menu.OpenMenu("invalidmenu") == Menu.InvalidHandle() --will be true since the menu we are trying to open doesnt exist
-```
-
-### Menu.OpenMenu
-
-
-#### Parameters:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| Menu name | string | the name of the menu |
-
-#### Returns:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| MenuHandle | int | Handle of the new menu |
-
-
-```lua
-local MainMenuHandle = Menu.OpenMenu(Menu.GetMainMenu())
-```
-
-### Menu.OpenElement
-
-
-#### Parameters:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| tab | string | tab name |
-| child | string | child name |
-| element | string | element name |
-
-#### Returns:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| Element Handle | int | Handle of the new Handle |
-
-```lua
-local FakelagMode = Menu.OpenElement("AntiAim","Main", "Fakelag")
-```
-
-### Menu.CloseHandle
-
-**Does not work on Main Menu**
-
-#### Parameters:
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| menu | int | the handle of the menu |
-
-
-
-```lua
-local NewMenu = Menu.CreateMenu(Vector2D.new(40,40),Vector2D.new(365,150),"TestMenu", true) --this creates the new menu
-Menu.CloseHandle(NewMenu) --this will close the menu
-```
 
 
 
