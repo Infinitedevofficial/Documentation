@@ -432,3 +432,93 @@ DebugOverlay.AddLine(Vector.Get(-5,-5,-5), Vector.Get(5,5,5), Color.Get(255,255,
 [back to Contents](#-1)
 
 ---
+
+# <a name="4"></a>ClientState
+---
+
+### ClientState.GetChokedCommands
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Choked commands | int |
+
+
+```lua
+ClientState.GetChokedCommands()
+-- can range from 0 to sv_maxusercmdprocessticks depending on how much ticks we choked
+```
+
+### ClientState.GetCommandAck
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| command ack | int |
+
+
+```lua
+ClientState.GetCommandAck()
+```
+
+### ClientState.GetLastOutgoingAck
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| command last outgoing ack | int |
+
+
+```lua
+ClientState.GetLastOutgoingAck()
+```
+
+### ClientState.GetLastOutgoingCommand
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| command last outgoing command | int |
+
+
+```lua
+ClientState.GetLastOutgoingCommand()
+```
+
+
+[back to Contents](#-1)
+
+---
+
