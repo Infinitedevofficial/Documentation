@@ -43,33 +43,57 @@ Built in Libraries: ffi bit
 |[SurfaceStringRenderFlags](#33)|
 |[PaintFontCreationFlags](#34)|
 |[Stages](#35)|
+|[CBasePlayer](#36)|
 
 ---
 
-# <a name="0"></a>Menu
+# <a name="0"></a>Penetration
 ---
 
-### Menu.CreateMenu
+### Penetration.CanPenetrate
 
 
 #### Parameters:
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| Position | Vector2D | start position |
-| Size | Vector2D | size of the menu |
-| Name | string | name of the menu |
-| Closable | bool | if true the menu can be closed |
+| start | Vector | start position |
+| end | Vector | end position |
 
 #### Returns:
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| MenuHandle | int | Handle of the new menu |
+| penetration | bool | can penetrate |
 
 
 ```lua
-Menu.CreateMenu(Vector2D.new(40,40),Vector2D.new(365,150),"Test Menu", true)
+Penetration.CanPenetrate(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0)) 
+--true if we can penetrate false if we can't
+```
+
+
+### Penetration.PredictDamage
+
+
+#### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| start | Vector | start position |
+| end | Vector | end position |
+| target | CBasePlayer | target |
+
+#### Returns:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| penetration | bool | can penetrate |
+
+
+```lua
+Penetration.PredictDamage(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0), Enemy) 
+--will be -1 if invalid parameters or (0 - max damage) if valid
 ```
 
 
