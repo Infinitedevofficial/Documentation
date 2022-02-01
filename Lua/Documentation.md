@@ -149,6 +149,154 @@ local gamedirectory = Engine.GetGameDirectory()
 --this will be your game directory
 ```
 
+### Engine.GetLevelName
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- |
+| | |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+| level name [includes .bsp] | string |
+
+
+```lua
+local levelname = Engine.GetLevelName()
+--your level name
+```
+
+### Engine.GetLevelNameShort
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- |
+| | |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+| level name [example: de_mirage instead of de_mirage.bsp] | string |
+
+
+```lua
+local levelname = Engine.GetLevelNameShort()
+--your level name
+```
+
+### Engine.GetLocalPlayer
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- |
+| | |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+| local player | CBasePlayer |
+
+
+```lua
+local localplayer = Engine.GetLocalPlayer()
+--this gets local player but you can also use EntityList.GetLocalPlayer()
+```
+
+### Engine.GetMapGroupName
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- |
+| | |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+| map group name | string |
+
+
+```lua
+local groupname = Engine.GetMapGroupName()
+--map group name
+```
+
+### Engine.GetMaxClients
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- |
+| | |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+| total number of players | int |
+
+
+```lua
+local numclients = Engine.GetMaxClients()
+--total clients, you can also use EntityList.NumberOfPlayers() or GlobalVariables.TotalClients()
+```
+
+### Engine.GetViewAngles
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- |
+| | |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+| viewangle | Vector |
+
+
+```lua
+local viewangle = Engine.GetViewAngles()
+--this gets the local viewangle
+```
+
+### Engine.SetViewAngles
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- |
+| Viewangle | Vector |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  |
+
+
+```lua
+Engine.SetViewAngles(Vector.Get(0,89,0))
+--this will make you look down
+```
+
+
 
 [back to Contents](#-1)
 
