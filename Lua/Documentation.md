@@ -2051,3 +2051,242 @@ HTTPS.IsConnected()
 
 ---
 
+## <a name="16"></a>Menu
+---
+
+#### Menu.GetMainMenu
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Main Menu Name | string | 
+
+
+```lua
+local MainMenuHandle = Menu.OpenMenu(Menu.GetMainMenu()) --Menu.GetMainMenu() returns the main menu name
+```
+
+#### Menu.InvalidHandle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| invalid handle | int | 
+
+
+```lua
+Menu.InvalidHandle() -- it is equal to -5 or invalid handle
+```
+
+
+#### Menu.CreateMenu
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Position | Vector2D | 
+| Size | Vector2D | 
+| Name | string | 
+| Closable | bool | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| created menu handle | int | 
+
+
+```lua
+local NewHandle = Menu.CreateMenu(Vector2D.Get(40,40 + 170),Vector2D.Get(365,100),"New Menu", true) --example
+```
+
+#### Menu.OpenMenu
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| menu name | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| menu handle | int | 
+
+
+```lua
+local MainMenu = Menu.OpenMenu(Menu.GetMainMenu()) --open menu used to open main menu
+```
+
+
+#### Menu.OpenElement
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| tab | string | 
+| child | string | 
+| element | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| element handle | string | 
+
+
+```lua
+local FakelagMode = Menu.OpenElement( "AntiAim","Main", "Fakelag") --opens fakelag dropdown
+```
+
+
+#### Menu.CloseHandle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| menu handle | int | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Menu.CloseHandle(somemenu) --only use when closing menus
+```
+
+
+#### Menu.CreateSwitch
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| menu handle | int | 
+| label | string | 
+| default value | bool | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Menu.CreateSwitch(SomeMenu,"SomeSwitch", false)
+```
+
+
+#### Menu.CreateSlider
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| menu handle | int | 
+| label | string | 
+| min | int |
+| max | int |
+| default value | int | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Menu.CreateSlider(SomeMenu,"SomeSlider", 0,10,5)
+```
+
+
+
+#### Menu.CreateDropdown
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| menu handle | int | 
+| label | string | 
+| elements | table of strings |
+| default value | int | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Menu.CreateDropdown(SomeMenu,"SomeDropdown", { "1","2", "3","4"}, 0)
+```
+
+
+#### Menu.CreateMultidropdown
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| menu handle | int | 
+| label | string | 
+| elements | table of strings |
+| default value | int | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Menu.CreateMultidropdown(SomeMenu,"SomeDropdown", { "1","2", "3","4"}, 0)
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
