@@ -1882,3 +1882,172 @@ Fakelag.GetChokedPackets()
 
 ---
 
+## <a name="14"></a>HTTP
+---
+
+#### HTTP.Post
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| URL | string | 
+| Body | string | 
+| Headers | table of strings |  
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| response body | string | 
+
+
+```lua
+HTTP.Post("http://unknownwebsite.com/api/test", "test", {""})
+```
+
+
+#### HTTP.Get
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| URL | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| response body | string | 
+
+
+```lua
+HTTP.Get("http://unknownwebsite.com/get")
+```
+
+#### HTTP.IsConnected
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is connected to internet | bool | 
+
+
+```lua
+HTTP.IsConnected()
+--true if connected to the internet
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="15"></a>HTTPS
+---
+
+#### HTTPS.Get
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| URL | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| response body | string | 
+
+
+
+```lua
+HTTPS.Get("http://unknownwebsite.com/get")
+```
+
+#### HTTPS.Post
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| URL | string | 
+| Path | string | 
+| Body | string | 
+| Headers | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+
+```lua
+HTTPS.Post("https://unknownwebsite.com", "/Post","Body","Header: Header")
+```
+
+#### HTTPS.DownloadURLToFile
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| URL | string | 
+| File | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Successful | bool | 
+
+
+
+```lua
+HTTPS.Post("https://unknownwebsite.com", "/Post","Body","Header: Header")
+```
+
+#### HTTPS.IsConnected
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is connected to internet | bool | 
+
+
+```lua
+HTTPS.IsConnected()
+--true if connected to the internet
+```
+
+
+[back to Contents](#-1)
+
+---
+
