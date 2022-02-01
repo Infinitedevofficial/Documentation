@@ -2290,3 +2290,167 @@ Menu.CreateMultidropdown(SomeMenu,"SomeDropdown", { "1","2", "3","4"}, 0)
 
 ---
 
+## <a name="17"></a>Doubletap
+---
+
+#### Doubletap.GetSpeed
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| current speed | int | 
+
+
+```lua
+Doubletap.GetSpeed()
+--doubletap speed
+```
+
+#### Doubletap.GetMode
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| current mode | int | 
+
+
+```lua
+Doubletap.GetMode()
+--doubletap mode
+```
+
+#### Doubletap.GetTolerance
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| current tolerance | int | 
+
+
+```lua
+Doubletap.GetTolerance()
+--returns overiden tolerance or 0 if not overiden
+```
+
+
+#### Doubletap.IsCharged
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| charge state | bool | 
+
+
+```lua
+Doubletap.IsCharged()
+--true if doubletap is charged
+```
+
+
+#### Doubletap.SetMode
+
+**Overrides for 1 tick**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new mode | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | |
+
+
+```lua
+Doubletap.SetMode(0)
+--sets doubletap mode to shift
+```
+
+
+#### Doubletap.SetSpeed
+
+**Overrides for 1 tick**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new speed | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | |
+
+
+```lua
+Doubletap.SetSpeed(15)
+--doubletap speed will now be 15
+```
+
+
+#### Doubletap.SetTolerance
+
+**Overrides for 1 tick**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new tolerance | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | |
+
+
+```lua
+Doubletap.SetTolerance(3)
+--doubletap tolerance will now be 3
+```
+
+
+
+
+[back to Contents](#-1)
+
+---
+
