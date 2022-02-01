@@ -522,7 +522,7 @@ ClientState.GetLastOutgoingCommand()
 
 ---
 
-# <a name="3"></a>Event
+# <a name="5"></a>Event
 ---
 
 ### Event.RegisterListener
