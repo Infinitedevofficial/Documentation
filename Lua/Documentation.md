@@ -1,4 +1,4 @@
-**Last Update: 29/01/2022**
+**Last Update: 01/02/2022**
 
 
 Built in Libraries: ffi bit
@@ -114,15 +114,15 @@ Penetration.PredictDamage(Entity.GetEyePosition(EntityList.GetLocalPlayer()), En
 
 #### Parameters:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| point | Vector | position |
+| Name | Type | 
+| :--- | :--- | 
+| point | Vector |
 
 #### Returns:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| contents | int | point contents |
+| Name | Type | 
+| :--- | :--- | 
+| contents | int | 
 
 
 ```lua
@@ -139,15 +139,15 @@ Trace.GetPointContents(Entity.GetEyePosition(EntityList.GetLocalPlayer()))
 
 #### Parameters:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| point | Vector | position |
+| Name | Type |
+| :--- | :--- | 
+| point | Vector | 
 
 #### Returns:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| contents | int | point contents |
+| Name | Type | 
+| :--- | :--- | 
+| contents | int | 
 
 
 ```lua
@@ -163,16 +163,16 @@ Trace.GetPointContentsWorld(Entity.GetEyePosition(EntityList.GetLocalPlayer()))
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| start | Vector | start position |
-| end | Vector | end position |
-| skip | CBasePlayer | player skipped [-1 if no player] |
-| mask | int | Trace Mask |
+| start | Vector | 
+| end | Vector | 
+| skip [-1 if no player] | CBasePlayer | 
+| mask | int | 
 
 #### Returns:
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| Trace | CGameTrace | trace result |
+| Name | Type |
+| :--- | :--- |
+| result | CGameTrace | 
 
 
 ```lua
