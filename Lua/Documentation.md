@@ -1624,3 +1624,203 @@ AntiAim.IsPeeking()
 
 ---
 
+# <a name="12"></a>Client
+---
+
+### Client.GetDelay
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| delay | float | 
+
+
+```lua
+Client.GetDelay()
+--returns ping
+```
+
+### Client.GetTime
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| time | string | 
+
+
+```lua
+Client.GetTime()
+--returns time in string with format H:M:S
+```
+
+
+### Client.GetUsername
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| username | string | 
+
+
+```lua
+Client.GetUsername()
+--gives client username
+```
+
+### Client.GetConnectedAddress
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| ip address | string | 
+
+
+```lua
+Client.GetConnectedAddress()
+--gives currently connected IP address
+```
+
+
+### Client.IsConnected
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is connected to server | bool | 
+
+
+```lua
+Client.IsConnected()
+--if true we are connected to a server
+```
+
+### Client.IsInGame
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is connected to server | bool | 
+
+
+```lua
+Client.IsInGame()
+--if true we are in a game or match
+```
+
+### Client.SetClantag
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| clantag | string | 
+| clanname | string | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Client.SetClantag("Infinite", "Infinite.dev")
+--sets clantag
+```
+
+### Client.TimeToTicks
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| time | float | 
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| ticks | int | 
+
+
+```lua
+Client.TimeToTicks(1.0)
+--1 second to ticks
+```
+
+### Client.TicksToTime
+
+
+#### Parameters:
+
+| Name | Type | 
+| :--- | :--- |
+| ticks | int |
+
+#### Returns:
+
+| Name | Type |
+| :--- | :--- | 
+| time | float | 
+
+
+```lua
+Client.TicksToTime(16)
+--16 ticks to seconds
+```
+
+
+[back to Contents](#-1)
+
+---
+
