@@ -888,3 +888,259 @@ local m_flDuckAmountOffset = Netvars.GetOffset("DT_CSPlayer", "m_flDuckAmount")
 
 ---
 
+# <a name="7"></a>GlobalVariables
+---
+
+### GlobalVariables.Realtime
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| realtime | float | 
+
+
+```lua
+GlobalVariables.Realtime()
+--time since csgo started
+```
+
+### GlobalVariables.Framecount
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Framecount | int | 
+
+
+```lua
+GlobalVariables.Framecount()
+--total frames rendered
+```
+
+### GlobalVariables.AbsoluteFrametime
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| frame time | float | 
+
+
+```lua
+GlobalVariables.AbsoluteFrametime()
+--very accurate frametime
+```
+
+### GlobalVariables.Frametime
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| frame time | float | 
+
+
+```lua
+GlobalVariables.Frametime()
+--less accurate frametime
+```
+
+### GlobalVariables.Curtime
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| current time | float | 
+
+
+```lua
+GlobalVariables.Curtime()
+--current server time
+```
+
+### GlobalVariables.TotalClients
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| total clients | int | 
+
+
+```lua
+GlobalVariables.TotalClients()
+--number of clients or players
+```
+
+
+### GlobalVariables.Tickcount
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| tickcount | int | 
+
+
+```lua
+GlobalVariables.Tickcount()
+--client tickcount
+```
+
+### GlobalVariables.IntervalPerTick
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| interval in time per tick | int | 
+
+
+```lua
+GlobalVariables.IntervalPerTick()
+--the interval of time for a tick to increment
+```
+
+
+### GlobalVariables.InterpolationAmmount
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| ammount | float | 
+
+
+```lua
+GlobalVariables.InterpolationAmmount()
+--how much players are interpolated
+```
+
+
+
+### GlobalVariables.NetworkProtocol
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| network protocol | int | 
+
+
+```lua
+GlobalVariables.NetworkProtocol()
+--current network protocol
+```
+
+
+### GlobalVariables.Client
+
+
+#### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+#### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| are we client or stream | bool | 
+
+
+```lua
+GlobalVariables.Client()
+```
+
+
+
+
+[back to Contents](#-1)
+
+---
+
