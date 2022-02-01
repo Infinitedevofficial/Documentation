@@ -50,6 +50,8 @@ Built in Libraries: ffi bit
 |[CBasePlayer](#36)|
 |[Virtual Key](#37)|
 |[ConVar](#38)|
+|[CFont](#39)|
+|[IFont](#40)|
 
 ---
 
@@ -2707,6 +2709,162 @@ EntityList.GetOpponents()
 
 ```lua
 EntityList.GetPlayers()
+```
+
+
+
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="19"></a>Paint
+---
+
+#### Paint.Line
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| start | Vector2D | 
+| end | Vector2D |
+| color | Color |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Paint.Line(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default)
+```
+
+
+#### Paint.FilledRectangle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| size | Vector2D |
+| color | Color |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Paint.FilledRectangle(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default)
+```
+
+
+#### Paint.Rectangle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| size | Vector2D |
+| thickness | float |
+| color | Color |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Paint.Rectangle(Vector2D.Get(40,40), Vector2D.Get(60,40),1.5, Color.Default)
+```
+
+
+#### Paint.String
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| text | string |
+| color | Color |
+| flags | PaintStringRenderFlags |
+| font | CFont |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Paint.String(Vector2D.Get(40,40), "test", Color.Default,PaintStringRenderFlags.LEFT, 0)
+```
+
+
+#### Paint.AddFont
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| name | string |
+| size | int |
+| weight | int |
+| flags | PaintFontCreationFlags |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| font | CFont | 
+
+
+```lua
+Paint.AddFont("Verdana", 30,400,PaintFontCreationFlags.Shadow)
+```
+
+
+#### Paint.ClearFonts
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Paint.ClearFonts()
+--clears fonts
 ```
 
 
