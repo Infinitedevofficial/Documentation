@@ -16,7 +16,7 @@ You can edit scripts with any editor you want, make sure to reload the script af
 
 [Documentation](/Lua/Documentation.md)
 
-[Example](/Lua/Example.lua)
+[Example](/Lua/Examples.md)
 
 ---
 
