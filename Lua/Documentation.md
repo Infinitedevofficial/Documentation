@@ -34,8 +34,8 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[Surface](#22)|
 |[World](#23)|
 |[Console](#24)|
-|[Callback](#25)|
-|[Sound](#26)|
+|[Sound](#25)|
+|[Callback](#26)|
 |[Vector](#27)|
 |[Vector2D](#28)|
 |[Color](#29)|
@@ -52,6 +52,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[CFont](#40)|
 |[IFont](#41)|
 |[BoneID](#42)|
+|[Print](#43)|
 
 ---
 
@@ -3934,6 +3935,108 @@ World.ToScreen(Vector.Get(100,0,0))
 ```lua
 World.Line(Vector.Get(100,0,0), Vector.Get(200,0,0), Color.Default(), 1.0)
 ```
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="24"></a>Console
+---
+
+#### Console.Print
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| text | string | 
+| color | Color |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Console.Print("text", Color.Default())
+```
+
+
+#### Console.Newline
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+|  |  |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Console.Newline()
+--next line or new line
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="25"></a>Sound
+---
+
+#### Sound.PlaySoundFromFile
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| path or file | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Sound.PlaySoundFromFile("C:\\Sounds\\AnimeUWU.wav")
+```
+
+#### Sound.PlaySoundFromFileInMemory
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| file in memory | table of bytes [unsigned char or unsigned int] | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Sound.PlaySoundFromFileInMemory(SomeFileInMemory)
+```
+
 
 
 [back to Contents](#-1)
