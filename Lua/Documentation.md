@@ -3275,6 +3275,105 @@ Entity.GetClassName(EntityList.GetLocalPlayer())
 ```
 
 
+#### Entity.GetPropAsBool
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| property | bool | 
+
+
+```lua
+--usage
+Entity.GetPropAsBool(someEntity, "DT_SomeTable", "m_bSomeBool")
+```
+
+#### Entity.GetPropAsVector
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| propery | Vector | 
+
+
+```lua
+--usage
+Entity.GetPropAsVector(someEntity, "DT_SomeTable", "m_vecSomeVector")
+```
+
+
+#### Entity.GetPropAsInt
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| propery | int | 
+
+
+```lua
+--usage
+Entity.GetPropAsInt(someEntity, "DT_SomeTable", "m_iSomeInt")
+```
+
+
+#### Entity.GetPropAsFloat
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| propery | float | 
+
+
+```lua
+--usage
+Entity.GetPropAsFloat(someEntity, "DT_SomeTable", "m_flSomeFloat")
+```
+
+
 
 [back to Contents](#-1)
 
