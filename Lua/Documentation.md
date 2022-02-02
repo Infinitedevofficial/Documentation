@@ -37,21 +37,22 @@ Built in Libraries: ffi bit
 |[World](#23)|
 |[Console](#24)|
 |[Callback](#25)|
-|[Vector](#26)|
-|[Vector2D](#27)|
-|[Color](#28)|
-|[CGameTrace](#29)|
-|[PlayerInfo_t](#30)|
-|[ResolveData](#31)|
-|[PaintStringRenderFlags](#32)|
-|[SurfaceStringRenderFlags](#33)|
-|[PaintFontCreationFlags](#34)|
-|[Stages](#35)|
-|[CBasePlayer](#36)|
-|[Virtual Key](#37)|
-|[ConVar](#38)|
-|[CFont](#39)|
-|[IFont](#40)|
+|[Sound](#26)|
+|[Vector](#27)|
+|[Vector2D](#28)|
+|[Color](#29)|
+|[CGameTrace](#30)|
+|[PlayerInfo_t](#31)|
+|[ResolveData](#32)|
+|[PaintStringRenderFlags](#33)|
+|[SurfaceStringRenderFlags](#34)|
+|[PaintFontCreationFlags](#35)|
+|[Stages](#36)|
+|[CBasePlayer](#37)|
+|[Virtual Key](#38)|
+|[ConVar](#39)|
+|[CFont](#40)|
+|[IFont](#41)|
 
 ---
 
@@ -2875,3 +2876,105 @@ Paint.ClearFonts()
 
 ---
 
+## <a name="20"></a>Bits
+---
+
+#### Bits.has
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| bit | int | 
+| bit | int |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| has | bool | 
+
+
+```lua
+local mustbetrue = Bits.has(48,16) --will be true
+--this is the same as mustbetrue = 48 & 16 (C)
+```
+
+
+#### Bits.or
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| bit | int | 
+| bit | int |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| newbit | int | 
+
+
+```lua
+local val = Bits.has(16,32) --will be 48
+--this is the same as val = 16 | 32 (C)
+```
+
+
+#### Bits.remove
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| bit | int | 
+| bit | int |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| removedbit | int | 
+
+
+```lua
+local val = Bits.remove(48,16) --will be 32
+--this is the same as val = 48 & ~16 (C)
+```
+
+
+
+#### Bits.add
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| bit | int | 
+| bit | int |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| added bit | int | 
+
+
+```lua
+local val = Bits.add(32,16) --will be 48
+--this is the same as val = 32 | 16 (C)
+```
+
+
+
+
+
+[back to Contents](#-1)
+
+---
