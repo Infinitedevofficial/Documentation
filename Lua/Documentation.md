@@ -5196,3 +5196,32 @@ Color.Get(255,255,100,255)
 [back to Contents](#-1)
 
 ---
+
+## <a name="30"></a>CGameTrace
+---
+
+#### Members:
+
+| Name | Type |
+| :--- | :--- | 
+| fraction | float | 
+| fractionleftsolid | float |
+| hitbox | int |
+| hitgroup | int |
+| physicsbone | short |
+| worldsurfaceindex | short |
+| startpos | Vector |
+| endpos | Vector |
+| contents | int |
+| dispflags | short |
+| allsolid | bool |
+| startsolid | bool |
+| hitentity | CBasePlayer |
+
+
+##### hitentity is -1 if it did not hit a entity
+
+
+[back to Contents](#-1)
+
+---
