@@ -52,7 +52,8 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[CFont](#40)|
 |[IFont](#41)|
 |[BoneID](#42)|
-|[Print](#43)|
+|[ResolveData](#43)|
+|[Print](#44)|
 
 ---
 
@@ -4055,27 +4056,396 @@ Sound.PlaySoundFromFileInMemory(SomeFileInMemory)
 #### Callback.GetStage
 
 
-#### For FrameStageNotify
+##### **For FrameStageNotify**
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| start | Vector | 
-| end | Vector |
+| | | 
+
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| penetration | bool | 
+| Frame Stage Notify Stage | Stages | 
 
 
 ```lua
-Penetration.CanPenetrate(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0)) 
---true if we can penetrate false if we can't
+Callback.GetStage()
 ```
+
+
+#### Callback.GetTickcount
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| tickcount | int | 
+
+
+```lua
+Callback.GetTickcount()
+```
+
+#### Callback.GetViewAngles
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| viewangles | Vector | 
+
+
+```lua
+Callback.GetViewAngles()
+```
+
+
+#### Callback.GetMovement
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| movement | Vector | 
+
+
+```lua
+Callback.GetMovement()
+```
+
+
+#### Callback.GetAimDirection
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Aim Direction | Vector | 
+
+
+```lua
+Callback.GetAimDirection()
+```
+
+
+#### Callback.GetButtons
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Buttons | unsigned int | 
+
+
+```lua
+Callback.GetButtons()
+```
+
+
+#### Callback.GetCommandNumber
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Command Number | unsigned int | 
+
+
+```lua
+Callback.GetCommandNumber()
+```
+
+#### Callback.SetCommandNumber
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new value | int | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Callback.SetCommandNumber(50)
+```
+
+
+#### Callback.SetButtons
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new value | int | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Callback.SetButtons(0)
+```
+
+
+#### Callback.SetTickcount
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new value | int | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Callback.SetTickcount(9999999)
+```
+
+
+
+#### Callback.SetViewAngles
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new value | Vector | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Callback.SetViewAngles(Vector.Get(0,0,0))
+```
+
+#### Callback.SetMovement
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new value | Vector | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Callback.SetMovement(Vector.Get(0,0,0))
+```
+
+#### Callback.SetAimDirection
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new value | Vector | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Callback.SetAimDirection(Vector.Get(0,0,0))
+```
+
+#### Callback.IsPredicted
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| is predicted | bool | 
+
+
+```lua
+Callback.IsPredicted() 
+```
+
+#### Callback.SetPredicted
+
+
+##### **For CreateMove or Prediction**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new value | bool | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Callback.SetPredicted(true)
+```
+
+#### Callback.Resolve
+
+
+##### **For Resolve**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| ResolveData | ResolveData | 
+
+
+```lua
+Callback.Resolve() --returns setable resolve data
+```
+
 
 
 
