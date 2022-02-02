@@ -5225,3 +5225,124 @@ Color.Get(255,255,100,255)
 [back to Contents](#-1)
 
 ---
+
+## <a name="31"></a>PlayerInfo_t
+---
+
+#### Members:
+
+| Name | Type |
+| :--- | :--- | 
+| IsBot | bool | 
+| IsHLTV | bool |
+| Name | string |
+| SteamID | int |
+| UserID | int |
+
+[back to Contents](#-1)
+
+---
+
+## <a name="32"></a>ResolveData
+---
+
+#### Members:
+
+| Name | Type |
+| :--- | :--- | 
+| Yaw | float | 
+| GoalFeetYaw | float |
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="33"></a>PaintStringRenderFlags
+---
+
+#### Typedef int PaintStringRenderFlags
+
+#### Enumeration:
+
+| Name | Value |
+| :--- | :--- | 
+| LEFT | 0 | 
+| RIGHT | 1 |
+| CENTER | 2 |
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="34"></a>SurfaceStringRenderFlags
+---
+
+#### Typedef int SurfaceStringRenderFlags
+
+#### Enumeration:
+
+| Name | Value |
+| :--- | :--- | 
+| NONE | 0 | 
+| OUTLINE | 1 |
+| CENTEREDX | 2 |
+| CENTEREDY | 4 |
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="35"></a>PaintFontCreationFlags
+---
+
+#### Typedef int PaintFontCreationFlags
+
+#### Enumeration:
+
+| Name | Value |
+| :--- | :--- | 
+| NONE | 0 | 
+| ITALIC | 1 |
+| UNDERLINE | 2 |
+| STRIKEOUT | 4 |
+| SYMBOL | 8 |
+| ANTIALIAS | 16 |
+| BLUR | 32 |
+| ROTARY | 64 |
+| SHADOW | 128 |
+| ADDITIVE | 256 |
+| OUTLINE | 512 |
+| CUSTOM | 1024 |
+| BITMAP | 2048 |
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="36"></a>Stages
+---
+
+#### Enumeration:
+
+| Name | Value |
+| :--- | :--- | 
+| FRAME_UNDEFINED | -1 |
+| FRAME_START | 0 | 
+| FRAME_NET_UPDATE_START | 1 |
+| FRAME_NET_UPDATE_POSTDATAUPDATE_START | 2 |
+| FRAME_NET_UPDATE_POSTDATAUPDATE_END | 3 |
+| FRAME_NET_UPDATE_END | 4 |
+| FRAME_RENDER_START | 5 |
+| FRAME_RENDER_END | 6 |
+
+
+
+[back to Contents](#-1)
+
+---
+
+
