@@ -5120,3 +5120,79 @@ local vec2 = Vector2D.Subtract(Vector2D.Get(20,20), Vector2D.Get(10,10))
 [back to Contents](#-1)
 
 ---
+
+## <a name="29"></a>Color
+---
+
+#### Color.Default
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| default | Color | 
+
+
+```lua
+Color.Default()
+```
+
+#### Color.new
+
+##### **Not recommended - Requires more memory then Color.Get**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| R | float | 
+| G | float | 
+| B | float | 
+| A [Optional] | float | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| color | Color | 
+
+
+```lua
+Color.new(255,255,100) 
+Color.new(255,255,100,255)
+```
+
+#### Color.Get
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| R | float | 
+| G | float | 
+| B | float | 
+| A | float | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| color | Color | 
+
+
+```lua
+Color.Get(255,255,100,255)
+```
+
+
+[back to Contents](#-1)
+
+---
