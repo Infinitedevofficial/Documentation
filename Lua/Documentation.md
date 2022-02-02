@@ -1827,6 +1827,66 @@ Client.TicksToTime(16)
 --16 ticks to seconds
 ```
 
+#### Client.GetBinds
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| active binds | table of strings | 
+
+
+```lua
+Client.GetBinds()
+```
+
+#### Client.GetBindsAlphaModifier
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| active binds modifier | table of floats | 
+
+
+```lua
+Client.GetBindsAlphaModifier()
+```
+
+#### Client.GetBindsType
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| active binds type | table of ints | 
+
+
+```lua
+Client.GetBindsType()
+```
+
 
 [back to Contents](#-1)
 
