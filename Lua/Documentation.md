@@ -2,10 +2,8 @@
 
 ---
 
-**Last Update: 01/02/2022**
 
-
-Built in Libraries: ffi bit
+Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 
 <a name="-1"></a>
 
