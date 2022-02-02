@@ -3769,3 +3769,173 @@ Surface.String(Vector2D.Get(200,200), Color.Get(255,255,255,255), SurfaceStringR
 [back to Contents](#-1)
 
 ---
+
+## <a name="23"></a>World
+---
+
+#### World.Line
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| start | Vector | 
+| end | Vector |
+| color | Color |
+| thickness | float |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+World.Line(Vector.Get(100,0,0), Vector.Get(200,0,0), Color.Default(), 1.0)
+```
+
+
+#### World.GradientCircle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Origin | Vector | 
+| Radius | float |
+| Inner | Color |
+| Outer | Color |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+World.GradientCircle(Vector.Get(100,0,0), 30.0, Color.Default(), Color.Default())
+```
+
+
+#### World.FilledCircle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Origin | Vector | 
+| Radius | float |
+| Color | Color |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+World.FilledCircle(Vector.Get(100,0,0), 30.0, Color.Default())
+```
+
+#### World.FilledPyramid
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Origin | Vector | 
+| Radius | float |
+| Height | float |
+| Color | Color |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+World.FilledPyramid(Vector.Get(100,0,0), 30.0, 20.0, Color.Default())
+```
+
+#### World.GradientPyramid
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Origin | Vector | 
+| Radius | float |
+| Height | float |
+| Inner | Color |
+| Outer | Color |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+World.GradientPyramid(Vector.Get(100,0,0), 30.0, 20.0, Color.Default(), Color.Default())
+```
+
+#### World.ToScreen
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| World | Vector | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Screen | Vector2D | 
+
+
+```lua
+World.ToScreen(Vector.Get(100,0,0))
+```
+
+#### World.GlowLine
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| start | Vector | 
+| end | Vector |
+| color | Color |
+| time | float |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+World.Line(Vector.Get(100,0,0), Vector.Get(200,0,0), Color.Default(), 1.0)
+```
+
+
+[back to Contents](#-1)
+
+---
