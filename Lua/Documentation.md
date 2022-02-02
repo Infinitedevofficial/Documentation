@@ -3373,6 +3373,107 @@ Entity.GetPropAsInt(someEntity, "DT_SomeTable", "m_iSomeInt")
 Entity.GetPropAsFloat(someEntity, "DT_SomeTable", "m_flSomeFloat")
 ```
 
+#### Entity.SetPropAsFloat
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+| newvalue | float |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| successful | bool | 
+
+
+```lua
+--usage
+Entity.SetPropAsFloat(someEntity, "DT_SomeTable", "m_flSomeFloat", 0.0)
+```
+
+#### Entity.SetPropAsInt
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+| newvalue | int |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| successful | bool | 
+
+
+```lua
+--usage
+Entity.SetPropAsInt(someEntity, "DT_SomeTable", "m_iSomeInt", 0)
+```
+
+#### Entity.SetPropAsBool
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+| newvalue | bool |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| successful | bool | 
+
+
+```lua
+--usage
+Entity.SetPropAsBool(someEntity, "DT_SomeTable", "m_bSomeBool", false)
+```
+
+
+#### Entity.SetPropAsVector
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| table | string |
+| prop | string |
+| newvalue | Vector |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| successful | bool | 
+
+
+```lua
+--usage
+Entity.SetPropAsVector(someEntity, "DT_SomeTable", "m_vecSomeVector", Vector.Get(0,0,0))
+```
+
 
 
 [back to Contents](#-1)
