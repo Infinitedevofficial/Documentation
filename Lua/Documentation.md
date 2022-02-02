@@ -4759,12 +4759,13 @@ end)
 ## <a name="27"></a>Vector
 ---
 
-#### Vector.x - Member float
+#### Members:
 
-#### Vector.y - Member float
-
-#### Vector.z - Member float
-
+| Name | Type |
+| :--- | :--- | 
+| X | float | 
+| Y | float |
+| Z | float |
 
 #### Vector.new
 
@@ -4934,6 +4935,125 @@ local Vec = Vector.Multiply(Vector.Get(5,5,5), Vector.Get(10,10,10))
 local Vec = Vector.Divide(Vector.Get(50,50,50), Vector.Get(10,10,10))
 ```
 
+
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="28"></a>Vector2D
+---
+
+#### Members:
+
+| Name | Type |
+| :--- | :--- | 
+| X | float | 
+| Y | float |
+
+
+#### Vector2D.new
+
+##### **Not recommended - Requires more memory then Vector2D.Get**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| X | float | 
+| Y | float |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| val | Vector2D | 
+
+```lua
+local vec2 = Vector2D.new(20,20)
+```
+
+#### Vector2D.Get
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| X | float | 
+| Y | float |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| val | Vector2D | 
+
+```lua
+local vec2 = Vector2D.Get(20,20)
+```
+
+#### Vector2D.Default()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| default | Vector2D | 
+
+```lua
+local default = Vector2D.Default()
+```
+
+
+#### Vector2D.Add
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| first | Vector2D | 
+| second | Vector2D | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Added | Vector2D | 
+
+```lua
+local vec2 = Vector2D.Add(Vector2D.Get(20,20), Vector2D.Get(40,0))
+```
+
+
+#### Vector2D.Subtract
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| first | Vector2D | 
+| second | Vector2D | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Subtracted | Vector2D | 
+
+```lua
+local vec2 = Vector2D.Subtract(Vector2D.Get(20,20), Vector2D.Get(10,10))
+```
 
 
 
