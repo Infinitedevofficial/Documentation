@@ -2723,6 +2723,8 @@ EntityList.GetPlayers()
 ## <a name="19"></a>Paint
 ---
 
+#### **Only call on PaintTranverse**
+
 #### Paint.Line
 
 
@@ -3484,6 +3486,9 @@ Entity.SetPropAsVector(someEntity, "DT_SomeTable", "m_vecSomeVector", Vector.Get
 ## <a name="22"></a>Surface
 ---
 
+#### **Only call on SurfaceRender**
+
+
 #### Surface.Triangle
 
 
@@ -3774,8 +3779,9 @@ Surface.String(Vector2D.Get(200,200), Color.Get(255,255,255,255), SurfaceStringR
 ## <a name="23"></a>World
 ---
 
-#### World.Line
+#### **Only call on SurfaceRender**
 
+#### World.Line
 
 ##### Parameters:
 
@@ -4035,6 +4041,40 @@ Sound.PlaySoundFromFile("C:\\Sounds\\AnimeUWU.wav")
 
 ```lua
 Sound.PlaySoundFromFileInMemory(SomeFileInMemory)
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="26"></a>Callback
+---
+
+#### Callback.GetStage
+
+
+#### For FrameStageNotify
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| start | Vector | 
+| end | Vector |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| penetration | bool | 
+
+
+```lua
+Penetration.CanPenetrate(Entity.GetEyePosition(EntityList.GetLocalPlayer()), Entity.GetBonePosition(Enemy, 0)) 
+--true if we can penetrate false if we can't
 ```
 
 
