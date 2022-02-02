@@ -51,6 +51,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[ConVar](#39)|
 |[CFont](#40)|
 |[IFont](#41)|
+|[BoneID](#42)|
 
 ---
 
@@ -2970,6 +2971,308 @@ local val = Bits.add(32,16) --will be 48
 ```
 
 
+
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="21"></a>Entity
+---
+
+#### Entity.GetPlayerInfo
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| player info | PlayerInfo_t | 
+
+
+```lua
+Entity.GetPlayerInfo(EntityList.GetLocalPlayer())
+--returns local player info
+```
+
+#### Entity.GetHandle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| handle | unsigned int | 
+
+
+```lua
+Entity.GetHandle(EntityList.GetLocalPlayer())
+--returns local player handle
+```
+
+
+#### Entity.GetClassID
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| classid | unsigned int | 
+
+
+```lua
+Entity.GetClassID(EntityList.GetLocalPlayer())
+--returns local player class id [MUST BE CBASEPLAYER]
+```
+
+
+#### Entity.IsAlive
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| alive | bool | 
+
+
+```lua
+Entity.IsAlive(EntityList.GetLocalPlayer())
+--true if local player is alive
+```
+
+#### Entity.IsValidOpponent
+
+
+**Checks for Dormancy and LifeState as well**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| valid opponent | bool | 
+
+
+```lua
+Entity.IsValidOpponent(EntityList.GetLocalPlayer())
+--will be true because local player is not a valid opponent
+```
+
+#### Entity.IsDormant
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| dormancy state | bool | 
+
+
+```lua
+Entity.IsDormant(EntityList.GetLocalPlayer())
+--true if local player is dormant
+```
+
+
+#### Entity.GetRenderOrigin
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| render origin | Vector | 
+
+
+```lua
+Entity.GetRenderOrigin(EntityList.GetLocalPlayer())
+--if player is dormant it will return the last known origin
+```
+
+
+#### Entity.GetEyePosition
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| eye position | Vector | 
+
+
+```lua
+Entity.GetEyePosition(EntityList.GetLocalPlayer())
+--get local player eye position
+```
+
+
+
+#### Entity.GetBonePosition
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+| bone | BoneID | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| bone position | Vector | 
+
+
+```lua
+Entity.GetBonePosition(EntityList.GetLocalPlayer(), 0)
+--get local player head position
+```
+
+
+#### Entity.GetEyeAngles
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| eye angles | Vector | 
+
+
+```lua
+Entity.GetEyeAngles(EntityList.GetLocalPlayer())
+--get local player eye angles
+```
+
+
+#### Entity.GetVelocity
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| velocity | Vector | 
+
+
+```lua
+Entity.GetEyeAngles(EntityList.GetLocalPlayer())
+--get local player velocity
+```
+
+
+#### Entity.GetEntityPointer
+
+
+**Used for FFI**
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Entity Pointer | int | 
+
+
+```lua
+Entity.GetEntityPointer(EntityList.GetLocalPlayer())
+--get local player pointer
+```
+
+#### Entity.GetClassName
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Player | CBasePlayer | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| class name or networked name | string | 
+
+
+```lua
+Entity.GetClassName(EntityList.GetLocalPlayer())
+--gets local player class name which will be CBasePlayer
+```
 
 
 
