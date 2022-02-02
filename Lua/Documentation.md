@@ -4755,3 +4755,188 @@ end)
 [back to Contents](#-1)
 
 ---
+
+## <a name="27"></a>Vector
+---
+
+#### Vector.x - Member float
+
+#### Vector.y - Member float
+
+#### Vector.z - Member float
+
+
+#### Vector.new
+
+##### **Not recommended - Requires more memory then Vector.Get**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| X | float | 
+| Y | float |
+| Z | float |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Vector | Vector | 
+
+
+```lua
+local Vec = Vector.new(50,50,50)
+```
+
+#### Vector.Get
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| X | float | 
+| Y | float |
+| Z | float |
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Vector | Vector | 
+
+
+```lua
+local Vec = Vector.Get(50,50,50)
+```
+
+#### Vector.Default
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| default | Vector | 
+
+
+```lua
+local Vec = Vector.Default()
+```
+
+
+
+#### Vector.Length
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| vector | Vector | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Length | float | 
+
+
+```lua
+local Vec = Vector.Get(50,50,50)
+local Length = Vector.Length(Vec)
+```
+
+#### Vector.Add
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| vector 1 | Vector | 
+| vector 2 | Vector | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Added | Vector | 
+
+
+```lua
+local Vec = Vector.Add(Vector.Get(0,0,50), Vector.Get(50,50,0))
+```
+
+
+#### Vector.Subtract
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| vector 1 | Vector | 
+| vector 2 | Vector | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Subtracted | Vector | 
+
+
+```lua
+local Vec = Vector.Subtract(Vector.Get(50,50,50), Vector.Get(50,50,50))
+```
+
+
+#### Vector.Multiply
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| vector 1 | Vector | 
+| vector 2 | Vector | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Multiplied | Vector | 
+
+
+```lua
+local Vec = Vector.Multiply(Vector.Get(5,5,5), Vector.Get(10,10,10))
+```
+
+#### Vector.Divide
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| vector 1 | Vector | 
+| vector 2 | Vector | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Divided | Vector | 
+
+
+```lua
+local Vec = Vector.Divide(Vector.Get(50,50,50), Vector.Get(10,10,10))
+```
+
+
+
+
+[back to Contents](#-1)
+
+---
