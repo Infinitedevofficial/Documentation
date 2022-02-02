@@ -5261,7 +5261,7 @@ Color.Get(255,255,100,255)
 ## <a name="33"></a>PaintStringRenderFlags
 ---
 
-#### Typedef int PaintStringRenderFlags
+#### Type definition int PaintStringRenderFlags
 
 #### Enumeration:
 
@@ -5279,7 +5279,7 @@ Color.Get(255,255,100,255)
 ## <a name="34"></a>SurfaceStringRenderFlags
 ---
 
-#### Typedef int SurfaceStringRenderFlags
+#### Type definition int SurfaceStringRenderFlags
 
 #### Enumeration:
 
@@ -5298,7 +5298,7 @@ Color.Get(255,255,100,255)
 ## <a name="35"></a>PaintFontCreationFlags
 ---
 
-#### Typedef int PaintFontCreationFlags
+#### Type definition int PaintFontCreationFlags
 
 #### Enumeration:
 
@@ -5325,6 +5325,8 @@ Color.Get(255,255,100,255)
 
 ## <a name="36"></a>Stages
 ---
+
+#### Type definition int Stages
 
 #### Enumeration:
 
