@@ -2741,7 +2741,7 @@ EntityList.GetPlayers()
 
 
 ```lua
-Paint.Line(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default)
+Paint.Line(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default())
 ```
 
 
@@ -2764,7 +2764,7 @@ Paint.Line(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default)
 
 
 ```lua
-Paint.FilledRectangle(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default)
+Paint.FilledRectangle(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default())
 ```
 
 
@@ -2788,7 +2788,7 @@ Paint.FilledRectangle(Vector2D.Get(40,40), Vector2D.Get(60,40), Color.Default)
 
 
 ```lua
-Paint.Rectangle(Vector2D.Get(40,40), Vector2D.Get(60,40),1.5, Color.Default)
+Paint.Rectangle(Vector2D.Get(40,40), Vector2D.Get(60,40),1.5, Color.Default())
 ```
 
 
@@ -2813,7 +2813,7 @@ Paint.Rectangle(Vector2D.Get(40,40), Vector2D.Get(60,40),1.5, Color.Default)
 
 
 ```lua
-Paint.String(Vector2D.Get(40,40), "test", Color.Default,PaintStringRenderFlags.LEFT, 0)
+Paint.String(Vector2D.Get(40,40), "test", Color.Default(),PaintStringRenderFlags.LEFT, 0)
 ```
 
 
@@ -3637,7 +3637,132 @@ Surface.GradientRectangle(Vector2D.Get(30,30),Vector2D.Get(50,30), Color.Get(255
 ```
 
 
+#### Surface.CircleFilled
 
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| radius | float |
+| color | Color |
+| segments | int |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.CircleFilled(Vector2D.Get(200,200),30.0,Color.Default(),20)
+```
+
+
+#### Surface.Circle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| radius | float |
+| color | Color |
+| thickness | float |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.Circle(Vector2D.Get(200,200),30.0,Color.Default(),1.0)
+```
+
+
+#### Surface.Arc
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| radius | float |
+| color | Color |
+| thickness | float |
+| start angle [radian] | float |
+| end angle [radian] | float |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.Arc(Vector2D.Get(200,200),30.0,Color.Default(),1.0, 0, 3.14) --3.14 * 2 for a full circle
+```
+
+
+#### Surface.GradientCircle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| radius | float |
+| inner | Color |
+| outer | Color |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.GradientCircle(Vector2D.Get(200,200),30.0,Color.Default(),Color.Get(255,255,255,0))
+```
+
+
+#### Surface.String
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| color | Color |
+| flags | SurfaceStringRenderFlags |
+| text | string |
+| font | IFont |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.String(Vector2D.Get(200,200), Color.Get(255,255,255,255), SurfaceStringRenderFlags.NONE, "text", 0)
+```
 
 
 
