@@ -52,8 +52,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[CFont](#40)|
 |[IFont](#41)|
 |[BoneID](#42)|
-|[ResolveData](#43)|
-|[Print](#44)|
+|[Print](#43)|
 
 ---
 
@@ -5347,4 +5346,104 @@ Color.Get(255,255,100,255)
 
 ---
 
+## <a name="37"></a>CBasePlayer
+---
 
+#### Type definition int CBasePlayer
+
+[back to Contents](#-1)
+
+---
+
+## <a name="38"></a>Virtual Key
+---
+
+#### Type definition int Virtual Key
+
+[back to Contents](#-1)
+
+---
+
+## <a name="39"></a>ConVar
+---
+
+#### Type definition int ConVar
+
+[back to Contents](#-1)
+
+---
+
+## <a name="40"></a>CFont
+---
+
+#### Type definition int CFont
+
+[back to Contents](#-1)
+
+---
+
+## <a name="41"></a>IFont
+---
+
+#### Type definition int IFont
+
+[back to Contents](#-1)
+
+---
+
+## <a name="42"></a>BoneID
+---
+
+#### Type definition int BoneID
+
+
+```cpp
+[NOT ENUMERATION]
+Values:
+0 = head 
+1 = neck 
+2 = pelvis 
+3 = body 
+4 = thorax
+5 = chest
+6 = upper chest
+7 = left thigh
+8 = right thigh
+9 = left calf
+10 = right calf
+11 = left foot
+12 = right foot
+```
+
+[back to Contents](#-1)
+
+---
+
+## <a name="43"></a>Print
+---
+
+#### Print
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| text | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Print("text")
+```
+
+
+
+[back to Contents](#-1)
+
+---
