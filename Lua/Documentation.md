@@ -3479,3 +3479,168 @@ Entity.SetPropAsVector(someEntity, "DT_SomeTable", "m_vecSomeVector", Vector.Get
 [back to Contents](#-1)
 
 ---
+
+## <a name="22"></a>Surface
+---
+
+#### Surface.Triangle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| point 1 | Vector2D | 
+| point 2 | Vector2D |
+| point 3 | Vector2D |
+| color | Color |
+| thickness | float |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.Triangle(Vector2D.Get(30,30),Vector2D.Get(50,30), Vector2D.Get(50,50), Color.Get(255,255,255,255), 1.0)
+```
+
+
+#### Surface.FilledTriangle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| point 1 | Vector2D | 
+| point 2 | Vector2D |
+| point 3 | Vector2D |
+| color | Color |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.FilledTriangle(Vector2D.Get(30,30),Vector2D.Get(50,30), Vector2D.Get(50,50), Color.Get(255,255,255,255))
+```
+
+
+#### Surface.Line
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| point 1 | Vector2D | 
+| point 2 | Vector2D |
+| color | Color |
+| thickness | float |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.Line(Vector2D.Get(30,30),Vector2D.Get(50,30), Color.Get(255,255,255,255), 1.0)
+```
+
+
+#### Surface.Rectangle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| size | Vector2D |
+| color | Color |
+| thickness | float |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.Rectangle(Vector2D.Get(30,30),Vector2D.Get(50,30), Color.Get(255,255,255,255), 1.0)
+```
+
+
+#### Surface.FilledRectangle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| size | Vector2D |
+| color | Color |
+
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.FilledRectangle(Vector2D.Get(30,30),Vector2D.Get(50,30), Color.Get(255,255,255,255))
+```
+
+
+#### Surface.GradientRectangle
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| size | Vector2D |
+| top left | Color |
+| top right | Color |
+| bottom left | Color |
+| bottom right | Color |
+
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.GradientRectangle(Vector2D.Get(30,30),Vector2D.Get(50,30), Color.Get(255,255,255,0), Color.Get(255,255,255,255), Color.Get(255,255,255,0), Color.Get(255,255,255,255))
+```
+
+
+
+
+
+
+[back to Contents](#-1)
+
+---
