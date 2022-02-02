@@ -4447,6 +4447,309 @@ Callback.Resolve() --returns setable resolve data
 ```
 
 
+#### OverrideView()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| override view key | string | 
+
+
+```lua
+OverrideView() --same as "OverrideView"
+```
+
+#### PostScreenEffects()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| PostScreenEffects key | string | 
+
+
+```lua
+PostScreenEffects() --same as "PostScreenEffects"
+```
+
+#### FrameStageNotify()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| FrameStageNotify key | string | 
+
+
+```lua
+FrameStageNotify() --same as "FrameStageNotify"
+```
+
+#### AnimationUpdate()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| AnimationUpdate key | string | 
+
+
+```lua
+AnimationUpdate() --same as "AnimationUpdate"
+```
+
+#### Resolve()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Resolve key | string | 
+
+
+```lua
+Resolve() --same as "Resolve"
+```
+
+
+#### RunCommand()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| RunCommand key | string | 
+
+
+```lua
+RunCommand() --same as "RunCommand"
+```
+
+#### SurfaceRender()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| SurfaceRender key | string | 
+
+
+```lua
+SurfaceRender() --same as "SurfaceRender"
+```
+
+#### PaintTranverse()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| PaintTranverse key | string | 
+
+
+```lua
+PaintTranverse() --same as "PaintTranverse"
+```
+
+#### MainThread()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| MainThread key | string | 
+
+
+```lua
+MainThread() --same as "MainThread"
+```
+
+#### AfterPrediction()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| AfterPrediction key | string | 
+
+
+```lua
+AfterPrediction() --same as "AfterPrediction"
+```
+
+#### PrePrediction()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| PrePrediction key | string | 
+
+
+```lua
+PrePrediction() --same as "PrePrediction"
+```
+
+
+#### PostPrediction()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| PostPrediction key | string | 
+
+
+```lua
+PostPrediction() --same as "PostPrediction"
+```
+
+
+#### CreateMove()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| CreateMove key | string | 
+
+
+```lua
+CreateMove() --same as "CreateMove"
+```
+
+
+#### RegisterCallback()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Callback Key | string |
+| callback | function |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+RegisterCallback(MainThread(), function()
+  Print("on mainthread callback")
+end)
+```
+
+
+
 
 
 [back to Contents](#-1)
