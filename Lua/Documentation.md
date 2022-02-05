@@ -54,6 +54,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[BoneID](#42)|
 |[Print](#43)|
 |[ITexture](#44)|
+|[Lua](#45)|
 
 ---
 
@@ -4619,6 +4620,27 @@ PostScreenEffects() --same as "PostScreenEffects"
 FrameStageNotify() --same as "FrameStageNotify"
 ```
 
+#### Unload()
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Unload key | string | 
+
+
+```lua
+Unload() --same as "Unload"
+```
+
 #### AnimationUpdate()
 
 
@@ -5562,6 +5584,116 @@ local texture = ITexture.Get()
 local texture = ITexture.SetTextureFromFile("C:\\Texture.png")
 ```
 
+
+
+[back to Contents](#-1)
+
+---
+
+## <a name="45"></a>Lua
+---
+
+#### Lua.Run
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| script | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Lua.Run("Print("test")")
+```
+
+#### Lua.File
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| script path | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Lua.File("C:\\CustomScripts\\Test.lua")
+```
+
+
+#### Lua.File
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| script path | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Lua.File("C:\\CustomScripts\\Test.lua")
+```
+
+#### Lua.Error
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| error | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Lua.Error("threw script error [this will unload script]")
+```
+
+
+#### Lua.Unload
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Lua.Unload() --unloads ourself 
+```
 
 
 [back to Contents](#-1)
