@@ -5634,25 +5634,6 @@ Lua.File("C:\\CustomScripts\\Test.lua")
 ```
 
 
-#### Lua.File
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| script path | string | 
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-|  |  | 
-
-
-```lua
-Lua.File("C:\\CustomScripts\\Test.lua")
-```
 
 #### Lua.Error
 
