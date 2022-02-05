@@ -4154,6 +4154,25 @@ Sound.PlaySoundFromFile("C:\\Sounds\\AnimeUWU.wav")
 Sound.PlaySoundFromFileInMemory(SomeFileInMemory)
 ```
 
+#### Sound.Stop
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Sound.Stop()
+```
 
 
 [back to Contents](#-1)
