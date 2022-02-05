@@ -53,6 +53,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[IFont](#41)|
 |[BoneID](#42)|
 |[Print](#43)|
+|[ITexture](#44)|
 
 ---
 
@@ -1846,24 +1847,24 @@ Client.TicksToTime(16)
 Client.GetBinds()
 ```
 
-#### Client.GetBindsAlphaModifier
+#### Client.GetBindsAnimation
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-|  |  | 
+| index | int | 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| active binds modifier | table of floats | 
+| modifier [0 - 255] | float 
 
 
 ```lua
-Client.GetBindsAlphaModifier()
+Client.GetBindsAnimation(#Client.GetBinds() - 1)
 ```
 
 #### Client.GetBindsType
@@ -3727,6 +3728,31 @@ Surface.GradientRectangle(Vector2D.Get(30,30),Vector2D.Get(50,30), Color.Get(255
 Surface.CircleFilled(Vector2D.Get(200,200),30.0,Color.Default(),20)
 ```
 
+#### Surface.Texture
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| position | Vector2D | 
+| size | Vector2D |
+| color | Color |
+| texture | ITexture |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+local texture = ITexture.SetTextureFromFile("C:\\texture.png")
+Surface.Texture(Vector2D.Get(20,20), Vector2D.Get(200,200), Color.Default(), texture)
+```
+
 
 #### Surface.Circle
 
@@ -3751,6 +3777,30 @@ Surface.CircleFilled(Vector2D.Get(200,200),30.0,Color.Default(),20)
 ```lua
 Surface.Circle(Vector2D.Get(200,200),30.0,Color.Default(),1.0)
 ```
+
+
+#### Surface.CalculateText
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| text | string | 
+| font | int |
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Size of text | Vector2D | 
+
+
+```lua
+local size = Surface.CalculateText("text", 0)
+```
+
 
 
 #### Surface.Arc
@@ -5440,6 +5490,76 @@ Values:
 
 ```lua
 Print("text")
+```
+
+
+
+[back to Contents](#-1)
+
+---
+## <a name="44"></a>ITexture
+---
+
+#### ITexture.new
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| texture | ITexture | 
+
+
+```lua
+local texture = ITexture.new()
+```
+
+
+#### ITexture.Get
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| texture | ITexture | 
+
+
+```lua
+local texture = ITexture.Get()
+```
+
+
+#### ITexture.SetTextureFromFile
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| file path | string | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| texture | ITexture | 
+
+
+```lua
+local texture = ITexture.SetTextureFromFile("C:\\Texture.png")
 ```
 
 
