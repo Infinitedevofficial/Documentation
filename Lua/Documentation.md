@@ -1293,6 +1293,130 @@ Memory.FindSignature("engine.dll", "53 56 57 8B DA 8B F9 FF 15")
 --setclantag pointer
 ```
 
+#### Memory.ReadPointerAsBool
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| pointer | unsigned int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | bool | 
+
+
+```lua
+Memory.ReadPointerAsBool(pointer) --returns true or false
+```
+
+#### Memory.ReadPointerAsFloat
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| pointer | unsigned int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | float | 
+
+
+```lua
+Memory.ReadPointerAsFloat(pointer) --returns a floating pointer number
+```
+
+#### Memory.ReadPointerAsInt
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| pointer | unsigned int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| value | int | 
+
+
+```lua
+Memory.ReadPointerAsInt(pointer) --returns a integer
+```
+
+
+#### Memory.WritePointerAsBool
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| pointer | unsigned int | 
+| new value | bool | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Memory.WritePointerAsBool(pointer, true)
+```
+
+#### Memory.WritePointerAsInt
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| pointer | unsigned int | 
+| new value | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Memory.WritePointerAsInt(pointer, 5)
+```
+
+#### Memory.WritePointerAsFloat
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| pointer | unsigned int | 
+| new value | float | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Memory.WritePointerAsFloat(pointer, 5.0)
+```
+
 #### Memory.GetModuleHandle
 
 
