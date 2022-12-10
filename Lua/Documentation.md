@@ -36,25 +36,29 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[Console](#24)|
 |[Sound](#25)|
 |[CreateMove](#26)|
-|[Vector](#27)|
-|[Vector2D](#28)|
-|[Color](#29)|
-|[CGameTrace](#30)|
-|[PlayerInfo_t](#31)|
-|[ResolveData](#32)|
-|[PaintStringRenderFlags](#33)|
-|[SurfaceStringRenderFlags](#34)|
-|[PaintFontCreationFlags](#35)|
-|[Stages](#36)|
-|[CBasePlayer](#37)|
-|[Virtual Key](#38)|
-|[ConVar](#39)|
-|[CFont](#40)|
-|[IFont](#41)|
-|[BoneID](#42)|
-|[Print](#43)|
-|[ITexture](#44)|
-|[Lua](#45)|
+|[FrameStageNotify](#27)|
+|[PostScreenEffects](#28)|
+|[OverrideView](#29)|
+|[Animations](#30)|
+|[Vector](#31)|
+|[Vector2D](#32)|
+|[Color](#33)|
+|[CGameTrace](#34)|
+|[PlayerInfo_t](#35)|
+|[ResolveData](#36)|
+|[PaintStringRenderFlags](#37)|
+|[SurfaceStringRenderFlags](#38)|
+|[PaintFontCreationFlags](#39)|
+|[Stages](#41)|
+|[CBasePlayer](#42)|
+|[Virtual Key](#43)|
+|[ConVar](#43)|
+|[CFont](#44)|
+|[IFont](#45)|
+|[BoneID](#46)|
+|[Print](#47)|
+|[ITexture](#48)|
+|[Lua](#49)|
 
 ---
 
@@ -4482,6 +4486,31 @@ CreateMove.OnFinishPrediction(function()
 end)
 ```
 
+#### CreateMove.OnRunCommand
+
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Callback | function | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+CreateMove.OnRunCommand(function()
+
+
+end)
+```
+
 #### CreateMove.GetTickcount
 
 
@@ -4793,186 +4822,242 @@ CreateMove.SetPredicted(true)
 ```
 
 
+[back to Contents](#-1)
 
-#### OverrideView()
+---
+## <a name="27"></a>FrameStageNotify
+---
+
+#### FrameStageNotify.Stage
+
+
+##### **For FrameStageNotify**
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| | | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| override view key | string | 
+| Frame Stage Notify Stage | Stages | 
 
 
 ```lua
-OverrideView() --same as "OverrideView"
+FrameStageNotify.GetStage()
 ```
 
-#### PostScreenEffects()
+#### FrameStageNotify.On
+
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| Callback | function | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| PostScreenEffects key | string | 
+| | | 
 
 
 ```lua
-PostScreenEffects() --same as "PostScreenEffects"
+FrameStageNotify.On(function()
+
+
+end)
 ```
 
-#### FrameStageNotify()
+[back to Contents](#-1)
+
+---
+## <a name="28"></a>PostScreenEffects
+---
+
+
+#### PostScreenEffects.On
+
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| Callback | function | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| FrameStageNotify key | string | 
+| | | 
 
 
 ```lua
-FrameStageNotify() --same as "FrameStageNotify"
+PostScreenEffects.On(function()
+
+
+end)
 ```
 
-#### Unload()
+[back to Contents](#-1)
+
+---
+## <a name="29"></a>OverrideView
+---
+
+
+#### OverrideView.On
+
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| Callback | function | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| Unload key | string | 
+| | | 
 
 
 ```lua
-Unload() --same as "Unload"
+OverrideView.On(function()
+
+
+end)
 ```
 
-#### AnimationUpdate()
+[back to Contents](#-1)
+
+---
+## <a name="30"></a>Animations
+---
+
+
+#### Animations.OnAnimationUpdate
+
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| Callback | function | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| AnimationUpdate key | string | 
+| | | 
 
 
 ```lua
-AnimationUpdate() --same as "AnimationUpdate"
+Animations.OnAnimationUpdate(function()
+
+
+end)
 ```
 
-#### Resolve()
+
+#### Animations.OnResolve
+
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| Callback | function | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| Resolve key | string | 
+| | | 
 
 
 ```lua
-Resolve() --same as "Resolve"
+Animations.OnResolve(function()
+
+
+end)
 ```
 
+#### Animations.GetCurrentAnimationUpdatePlayer
 
-#### RunCommand()
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| | | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| RunCommand key | string | 
+| Entity | CBasePlayer | 
 
 
 ```lua
-RunCommand() --same as "RunCommand"
+Animations.OnAnimationUpdate(function()
+    local CurrentPlayer = Animations.GetCurrentAnimationUpdatePlayer()
+
+end)
 ```
 
-#### PaintTranverse()
+#### Animations.GetCurrentResolveUpdatePlayer
+
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| |  | 
+| | | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| PaintTranverse key | string | 
+| Entity | CBasePlayer | 
 
 
 ```lua
-PaintTranverse() --same as "PaintTranverse"
+Animations.OnResolve(function()
+    local CurrentPlayer = Animations.GetCurrentResolveUpdatePlayer()
+
+end)
 ```
 
+#### Animations.SetGoalFeetYaw
 
-#### RegisterCallback()
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| Callback Key | string |
-| callback | function |
+| GoalFeetYaw | float | 
 
 
 ##### Returns:
@@ -4983,20 +5068,70 @@ PaintTranverse() --same as "PaintTranverse"
 
 
 ```lua
-Client.OnRender(function()
-  Print("on mainthread callback")
+Animations.OnResolve(function()
+    local CurrentPlayer = Animations.GetCurrentResolveUpdatePlayer()
+
+    Animations.SetGoalFeetYaw(math.random(-180, 180))
 end)
 ```
 
+#### Animations.SetYaw
 
 
 
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Yaw | float | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Animations.OnResolve(function()
+    local CurrentPlayer = Animations.GetCurrentResolveUpdatePlayer()
+
+    Animations.SetYaw(math.random(-180, 180))
+end)
+```
+
+#### Animations.GetResolveData
+
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Resolve Data | ResolveData | 
+
+
+```lua
+Animations.OnResolve(function()
+    local CurrentPlayer = Animations.GetCurrentResolveUpdatePlayer()
+    local ResolveData = Animations.GetResolveData()
+    Animations.SetYaw(ResolveData.Yaw + math.random(-60, 60))
+end)
+```
 
 [back to Contents](#-1)
 
 ---
 
-## <a name="27"></a>Vector
+## <a name="31"></a>Vector
 ---
 
 #### Members:
@@ -5182,7 +5317,7 @@ local Vec = Vector.Divide(Vector.Get(50,50,50), Vector.Get(10,10,10))
 
 ---
 
-## <a name="28"></a>Vector2D
+## <a name="32"></a>Vector2D
 ---
 
 #### Members:
@@ -5301,7 +5436,7 @@ local vec2 = Vector2D.Subtract(Vector2D.Get(20,20), Vector2D.Get(10,10))
 
 ---
 
-## <a name="29"></a>Color
+## <a name="33"></a>Color
 ---
 
 #### Color.Default
@@ -5377,7 +5512,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="30"></a>CGameTrace
+## <a name="34"></a>CGameTrace
 ---
 
 #### Members:
@@ -5406,7 +5541,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="31"></a>PlayerInfo_t
+## <a name="35"></a>PlayerInfo_t
 ---
 
 #### Members:
@@ -5423,7 +5558,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="32"></a>ResolveData
+## <a name="36"></a>ResolveData
 ---
 
 #### Members:
@@ -5432,13 +5567,14 @@ Color.Get(255,255,100,255)
 | :--- | :--- | 
 | Yaw | float | 
 | GoalFeetYaw | float |
+| CurrentPlayer | CBasePlayer |
 
 
 [back to Contents](#-1)
 
 ---
 
-## <a name="33"></a>PaintStringRenderFlags
+## <a name="37"></a>PaintStringRenderFlags
 ---
 
 #### Type definition int PaintStringRenderFlags
@@ -5456,7 +5592,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="34"></a>SurfaceStringRenderFlags
+## <a name="38"></a>SurfaceStringRenderFlags
 ---
 
 #### Type definition int SurfaceStringRenderFlags
@@ -5475,7 +5611,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="35"></a>PaintFontCreationFlags
+## <a name="39"></a>PaintFontCreationFlags
 ---
 
 #### Type definition int PaintFontCreationFlags
@@ -5503,7 +5639,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="36"></a>Stages
+## <a name="40"></a>Stages
 ---
 
 #### Type definition int Stages
@@ -5527,7 +5663,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="37"></a>CBasePlayer
+## <a name="41"></a>CBasePlayer
 ---
 
 #### Type definition int CBasePlayer
@@ -5536,7 +5672,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="38"></a>Virtual Key
+## <a name="42"></a>Virtual Key
 ---
 
 #### Type definition int Virtual Key
@@ -5545,7 +5681,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="39"></a>ConVar
+## <a name="43"></a>ConVar
 ---
 
 #### Type definition int ConVar
@@ -5554,7 +5690,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="40"></a>CFont
+## <a name="44"></a>CFont
 ---
 
 #### Type definition int CFont
@@ -5563,7 +5699,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="41"></a>IFont
+## <a name="45"></a>IFont
 ---
 
 #### Type definition int IFont
@@ -5572,7 +5708,7 @@ Color.Get(255,255,100,255)
 
 ---
 
-## <a name="42"></a>BoneID
+## <a name="46"></a>BoneID
 ---
 
 #### Type definition int BoneID
@@ -5600,7 +5736,7 @@ Values:
 
 ---
 
-## <a name="43"></a>Print
+## <a name="47"></a>Print
 ---
 
 #### Print
@@ -5628,7 +5764,7 @@ Print("text")
 [back to Contents](#-1)
 
 ---
-## <a name="44"></a>ITexture
+## <a name="48"></a>ITexture
 ---
 
 #### ITexture.new
@@ -5699,7 +5835,7 @@ local texture = ITexture.SetTextureFromFile("C:\\Texture.png")
 
 ---
 
-## <a name="45"></a>Lua
+## <a name="49"></a>Lua
 ---
 
 #### Lua.Run
