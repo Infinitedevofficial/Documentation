@@ -3912,6 +3912,7 @@ Surface.Circle(Vector2D.Get(200,200),30.0,Color.Default(),1.0)
 | :--- | :--- | 
 | text | string | 
 | font | int |
+| on get | function |
 
 
 ##### Returns:
@@ -3922,7 +3923,15 @@ Surface.Circle(Vector2D.Get(200,200),30.0,Color.Default(),1.0)
 
 
 ```lua
-local size = Surface.CalculateText("text", 0)
+local sizex = 0
+local sizey = 0
+
+RegisterCallback(PaintTranverse(), function()
+  Surface.CalculateText("text", function(x, y)
+    sizex = x
+    sizey = y
+  end)
+end)
 ```
 
 
