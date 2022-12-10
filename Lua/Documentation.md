@@ -1786,6 +1786,29 @@ Client.OnRender(function()
 end)
 ```
 
+#### Client.ResetRender
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Client.OnRender(function()
+  Client.ResetRender() --make sure to reset render!
+   --render code
+end)
+```
+
 #### Client.GetDelay
 
 
