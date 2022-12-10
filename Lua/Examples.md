@@ -183,7 +183,7 @@ end)
 ---
 
 ```lua
-RegisterCallback(SurfaceRender(), function()
+RegisterCallback(PaintTranverse(), function()
     local Start = Vector2D.Get(1920 / 2, 1080 / 2 + 33)
     Surface.String(Start,Color.Get(211, 191, 255,255),1,"INDICATORS",0)
     Start = Vector2D.Add(Start, Vector2D.Get(0,15))
