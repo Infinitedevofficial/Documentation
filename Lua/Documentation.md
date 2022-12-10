@@ -3672,7 +3672,6 @@ Entity.SetPropAsVector(someEntity, "DT_SomeTable", "m_vecSomeVector", Vector.Get
 ## <a name="22"></a>Surface
 ---
 
-#### **Only call on SurfaceRender**
 
 
 #### Surface.Triangle
@@ -4014,7 +4013,6 @@ Surface.String(Vector2D.Get(200,200), Color.Get(255,255,255,255), SurfaceStringR
 ## <a name="23"></a>World
 ---
 
-#### **Only call on SurfaceRender**
 
 #### World.Line
 
@@ -4848,27 +4846,6 @@ Resolve() --same as "Resolve"
 RunCommand() --same as "RunCommand"
 ```
 
-#### SurfaceRender()
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| |  | 
-
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| SurfaceRender key | string | 
-
-
-```lua
-SurfaceRender() --same as "SurfaceRender"
-```
-
 #### PaintTranverse()
 
 
@@ -4888,27 +4865,6 @@ SurfaceRender() --same as "SurfaceRender"
 
 ```lua
 PaintTranverse() --same as "PaintTranverse"
-```
-
-#### MainThread()
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| |  | 
-
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| MainThread key | string | 
-
-
-```lua
-MainThread() --same as "MainThread"
 ```
 
 #### AfterPrediction()
