@@ -35,7 +35,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[World](#23)|
 |[Console](#24)|
 |[Sound](#25)|
-|[Callback](#26)|
+|[CreateMove](#26)|
 |[Vector](#27)|
 |[Vector2D](#28)|
 |[Color](#29)|
@@ -4401,38 +4401,89 @@ Sound.Stop()
 
 ---
 
-## <a name="26"></a>Callback
+## <a name="26"></a>CreateMove
 ---
 
-#### Callback.GetStage
 
+#### CreateMove.OnPrePrediction
 
-##### **For FrameStageNotify**
 
 
 ##### Parameters:
 
 | Name | Type |
 | :--- | :--- | 
-| | | 
+| Callback | function | 
 
 
 ##### Returns:
 
 | Name | Type | 
 | :--- | :--- |
-| Frame Stage Notify Stage | Stages | 
+| | | 
 
 
 ```lua
-Callback.GetStage()
+CreateMove.OnPrePrediction(function()
+
+
+end)
 ```
 
 
-#### Callback.GetTickcount
+#### CreateMove.OnPostPrediction
 
 
-##### **For CreateMove or Prediction**
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Callback | function | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+CreateMove.OnPostPrediction(function()
+
+
+end)
+```
+
+
+#### CreateMove.OnFinishPrediction
+
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Callback | function | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+CreateMove.OnFinishPrediction(function()
+
+
+end)
+```
+
+#### CreateMove.GetTickcount
+
 
 
 ##### Parameters:
@@ -4450,13 +4501,12 @@ Callback.GetStage()
 
 
 ```lua
-Callback.GetTickcount()
+CreateMove.GetTickcount()
 ```
 
-#### Callback.GetViewAngles
+#### CreateMove.GetViewAngles
 
 
-##### **For CreateMove or Prediction**
 
 
 ##### Parameters:
@@ -4474,14 +4524,12 @@ Callback.GetTickcount()
 
 
 ```lua
-Callback.GetViewAngles()
+CreateMove.GetViewAngles()
 ```
 
 
-#### Callback.GetMovement
+#### CreateMove.GetMovement
 
-
-##### **For CreateMove or Prediction**
 
 
 ##### Parameters:
@@ -4499,14 +4547,11 @@ Callback.GetViewAngles()
 
 
 ```lua
-Callback.GetMovement()
+CreateMove.GetMovement()
 ```
 
 
-#### Callback.GetAimDirection
-
-
-##### **For CreateMove or Prediction**
+#### CreateMove.GetAimDirection
 
 
 ##### Parameters:
@@ -4524,14 +4569,12 @@ Callback.GetMovement()
 
 
 ```lua
-Callback.GetAimDirection()
+CreateMove.GetAimDirection()
 ```
 
 
-#### Callback.GetButtons
+#### CreateMove.GetButtons
 
-
-##### **For CreateMove or Prediction**
 
 
 ##### Parameters:
@@ -4549,14 +4592,12 @@ Callback.GetAimDirection()
 
 
 ```lua
-Callback.GetButtons()
+CreateMove.GetButtons()
 ```
 
 
-#### Callback.GetCommandNumber
+#### CreateMove.GetCommandNumber
 
-
-##### **For CreateMove or Prediction**
 
 
 ##### Parameters:
@@ -4574,13 +4615,10 @@ Callback.GetButtons()
 
 
 ```lua
-Callback.GetCommandNumber()
+CreateMove.GetCommandNumber()
 ```
 
-#### Callback.SetCommandNumber
-
-
-##### **For CreateMove or Prediction**
+#### CreateMove.SetCommandNumber
 
 
 ##### Parameters:
@@ -4598,14 +4636,11 @@ Callback.GetCommandNumber()
 
 
 ```lua
-Callback.SetCommandNumber(50)
+CreateMove.SetCommandNumber(50)
 ```
 
 
-#### Callback.SetButtons
-
-
-##### **For CreateMove or Prediction**
+#### CreateMove.SetButtons
 
 
 ##### Parameters:
@@ -4623,14 +4658,11 @@ Callback.SetCommandNumber(50)
 
 
 ```lua
-Callback.SetButtons(0)
+CreateMove.SetButtons(0)
 ```
 
 
-#### Callback.SetTickcount
-
-
-##### **For CreateMove or Prediction**
+#### CreateMove.SetTickcount
 
 
 ##### Parameters:
@@ -4648,15 +4680,12 @@ Callback.SetButtons(0)
 
 
 ```lua
-Callback.SetTickcount(9999999)
+CreateMove.SetTickcount(9999999)
 ```
 
 
 
-#### Callback.SetViewAngles
-
-
-##### **For CreateMove or Prediction**
+#### CreateMove.SetViewAngles
 
 
 ##### Parameters:
@@ -4674,13 +4703,10 @@ Callback.SetTickcount(9999999)
 
 
 ```lua
-Callback.SetViewAngles(Vector.Get(0,0,0))
+CreateMove.SetViewAngles(Vector.Get(0,0,0))
 ```
 
-#### Callback.SetMovement
-
-
-##### **For CreateMove or Prediction**
+#### CreateMove.SetMovement
 
 
 ##### Parameters:
@@ -4698,13 +4724,10 @@ Callback.SetViewAngles(Vector.Get(0,0,0))
 
 
 ```lua
-Callback.SetMovement(Vector.Get(0,0,0))
+CreateMove.SetMovement(Vector.Get(0,0,0))
 ```
 
-#### Callback.SetAimDirection
-
-
-##### **For CreateMove or Prediction**
+#### CreateMove.SetAimDirection
 
 
 ##### Parameters:
@@ -4722,13 +4745,11 @@ Callback.SetMovement(Vector.Get(0,0,0))
 
 
 ```lua
-Callback.SetAimDirection(Vector.Get(0,0,0))
+CreateMove.SetAimDirection(Vector.Get(0,0,0))
 ```
 
-#### Callback.IsPredicted
+#### CreateMove.IsPredicted
 
-
-##### **For CreateMove or Prediction**
 
 
 ##### Parameters:
@@ -4746,13 +4767,11 @@ Callback.SetAimDirection(Vector.Get(0,0,0))
 
 
 ```lua
-Callback.IsPredicted() 
+CreateMove.IsPredicted() 
 ```
 
-#### Callback.SetPredicted
+#### CreateMove.SetPredicted
 
-
-##### **For CreateMove or Prediction**
 
 
 ##### Parameters:
@@ -4770,32 +4789,9 @@ Callback.IsPredicted()
 
 
 ```lua
-Callback.SetPredicted(true)
+CreateMove.SetPredicted(true)
 ```
 
-#### Callback.Resolve
-
-
-##### **For Resolve**
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| |  | 
-
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| ResolveData | ResolveData | 
-
-
-```lua
-Callback.Resolve() --returns setable resolve data
-```
 
 
 #### OverrideView()
@@ -4967,92 +4963,6 @@ RunCommand() --same as "RunCommand"
 PaintTranverse() --same as "PaintTranverse"
 ```
 
-#### AfterPrediction()
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| |  | 
-
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| AfterPrediction key | string | 
-
-
-```lua
-AfterPrediction() --same as "AfterPrediction"
-```
-
-#### PrePrediction()
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| |  | 
-
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| PrePrediction key | string | 
-
-
-```lua
-PrePrediction() --same as "PrePrediction"
-```
-
-
-#### PostPrediction()
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| |  | 
-
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| PostPrediction key | string | 
-
-
-```lua
-PostPrediction() --same as "PostPrediction"
-```
-
-
-#### CreateMove()
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| |  | 
-
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| CreateMove key | string | 
-
-
-```lua
-CreateMove() --same as "CreateMove"
-```
-
 
 #### RegisterCallback()
 
@@ -5073,7 +4983,7 @@ CreateMove() --same as "CreateMove"
 
 
 ```lua
-RegisterCallback(MainThread(), function()
+Client.OnRender(function()
   Print("on mainthread callback")
 end)
 ```
