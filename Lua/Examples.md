@@ -192,6 +192,10 @@ Client.OnRender(function()
         Surface.String(Start,Color.Get(94, 255, 0,255),1,"DT",0)
     end
 end)
+
+Client.OnUnload(function()
+    Client.ResetRender()
+end)
 ```
 
 [back to Contents](#-1)
