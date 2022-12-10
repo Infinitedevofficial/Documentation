@@ -58,7 +58,7 @@ local tag = build_tag('BoberHook')
 -- @endregion
 
 
-RegisterCallback(CreateMove(),function()
+CreateMove.PostPrediction(function()
 
     local iter = math.floor(math.fmod(GlobalVariables.Tickcount() / 16, #tag + 1) + 1)
 
@@ -113,7 +113,7 @@ local tag = build_tag('BoberHook')
 
 
 
-RegisterCallback(CreateMove(),function()
+CreateMove.PostPrediction(function()
 
     local iter = math.floor(math.fmod(GlobalVariables.Tickcount() / 16, #tag + 1) + 1)
 
@@ -141,7 +141,7 @@ local IN_DUCK = bit.lshift(1, 2)
 local MOVEMENT = Vector.Get(0,0,0)
 
 
-RegisterCallback(PrePrediction(), function()
+CreateMove.PrePrediction(function()
 
     if BIND_TYPE == 0 then
         FAKEDUCKSTATE = InputSystem.IsKeyPressed(BIND_KEY) 
@@ -156,7 +156,7 @@ RegisterCallback(PrePrediction(), function()
     if not FAKEDUCKSTATE or Doubletap.IsCharged() then
         return
     end
-    Callback.SetMovement(MOVEMENT)
+    CreateMove.SetMovement(MOVEMENT)
     Fakelag.OverridePacket(Fakelag.GetChokedPackets() >= 14) 
 
     local Buttons = Callback.GetButtons()
@@ -171,7 +171,7 @@ RegisterCallback(PrePrediction(), function()
         Buttons = bit.bor(Buttons, IN_DUCK)
     end
 
-    Callback.SetButtons(Buttons)
+    CreateMove.SetButtons(Buttons)
 end)
 ```
 
