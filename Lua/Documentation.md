@@ -1786,6 +1786,29 @@ Client.OnRender(function()
 end)
 ```
 
+#### Client.OnUnload
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| function | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Client.OnUnload(function()
+   --on unload
+end)
+```
+
+
 #### Client.ResetRender
 
 
