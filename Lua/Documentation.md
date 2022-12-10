@@ -1760,6 +1760,28 @@ AntiAim.IsPeeking()
 ## <a name="12"></a>Client
 ---
 
+#### Client.OnRender
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| function | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Client.OnRender(function()
+   --render code
+end)
+```
+
 #### Client.GetDelay
 
 
@@ -2909,6 +2931,29 @@ EntityList.GetPlayers()
 ## <a name="19"></a>Paint
 ---
 
+#### Paint.OnRender
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| function | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Paint.OnRender(function()
+   --render code
+end)
+```
+
+
 #### **Only call on PaintTranverse**
 
 #### Paint.Line
@@ -3673,6 +3718,28 @@ Entity.SetPropAsVector(someEntity, "DT_SomeTable", "m_vecSomeVector", Vector.Get
 ---
 
 
+#### Surface.OnRender
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| function | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Surface.OnRender(function()
+   --render code
+end)
+```
+### You may call on any callback
 
 #### Surface.Triangle
 
@@ -4022,6 +4089,30 @@ Surface.String(Vector2D.Get(200,200), Color.Get(255,255,255,255), SurfaceStringR
 ## <a name="23"></a>World
 ---
 
+#### World.OnRender
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| function | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+World.OnRender(function()
+   --render code
+end)
+```
+
+
+### You may call on any Callback
 
 #### World.Line
 
