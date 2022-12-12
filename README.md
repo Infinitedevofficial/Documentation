@@ -36,7 +36,7 @@ Feel free to contact us:
 [![Issues](https://img.shields.io/github/issues/Infinitedevofficial/Documentation.svg?style=plastic)](https://github.com/Infinitedevofficial/Documentation/issues)
 
 - Personal messages to any of documentation maintainer:
-  - Discord: Oak>.<#0875
+  - Discord: fst#4860
   - Discord: Aero#0866
   
 ---
