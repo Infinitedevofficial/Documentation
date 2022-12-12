@@ -59,6 +59,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[Print](#47)|
 |[ITexture](#48)|
 |[Lua](#49)|
+|[Rage](#50)|
 
 ---
 
@@ -1693,6 +1694,95 @@ AntiAim.GetRange()
 --between 0.0-120.0 depending on current desync range
 ```
 
+#### AntiAim.SetAtTarget
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+AntiAim.SetAtTarget() --will set out base yaw at target if we use also use AntiAim.SetYaw
+```
+
+#### AntiAim.SetYaw
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new yaw | double | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+AntiAim.SetYaw() --will set our yaw
+```
+
+
+#### AntiAim.SetLBY
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new lower body target | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+AntiAim.SetLBY() --will set our lby target
+-- 0 = "Offset"
+-- 1 = "Extend"
+-- 2 = "Preserve"
+-- 3 = "Tank"
+-- 4 = "Fake"
+```
+
+#### AntiAim.OnRun
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| callback | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+AntiAim.OnRun(function()
+  --new antiaim overrides
+
+end)
+```
+
 #### AntiAim.SetRange
 
 
@@ -2136,7 +2226,27 @@ Fakelag.GetChokedPackets()
 --ammount of choked packets
 ```
 
+#### Fakelag.SendPacket
 
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| will send packet | bool | 
+
+
+```lua
+Fakelag.SendPacket() -- returns true if we will send a packet and will return false if we wont send a packet
+--value depends on CreateMove call section (prediction, preprediction)
+```
 
 
 [back to Contents](#-1)
@@ -5966,6 +6076,135 @@ Lua.Error("threw script error [this will unload script]")
 ```lua
 Lua.Unload() --unloads ourself 
 ```
+
+
+[back to Contents](#-1)
+
+---
+## <a name="50"></a>Rage.OnScan
+---
+
+
+#### Rage.OnScan
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Callback | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Rage.OnScan(function()
+--inside callback
+  Rage.ForceBaim()
+end)
+```
+
+#### Rage.Target
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Target | CBasePlayer | 
+
+
+```lua
+Rage.OnScan(function()
+  Print(Rage.Target()) --will print the current ragebot target
+end)
+```
+
+#### Rage.ForceBaim
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Rage.OnScan(function()
+  Rage.ForceBaim() --force baim on target
+end)
+```
+
+#### Rage.SetScannedHitboxes
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| overriden hitbox | unsigned int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Rage.OnScan(function()
+  Rage.SetScannedHitboxes(1) --forces head hitbox
+  --16 - stomach
+  --32 - pelvis
+  --8 - chest
+  --4 - upper chest
+  --2 - neck
+  --1 - head
+  --128 - thighs
+  --256 - foot
+	--NOTE: use bit library
+end)
+```
+
+#### Rage.SetScannedDamage
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| new minimum damage | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+Rage.OnScan(function()
+  Rage.SetScannedDamage(10)
+end)
+```
+
 
 
 [back to Contents](#-1)
