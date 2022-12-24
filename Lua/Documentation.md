@@ -60,6 +60,7 @@ Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
 |[ITexture](#48)|
 |[Lua](#49)|
 |[Rage](#50)|
+|[PacketManager](#51)|
 
 ---
 
@@ -6081,7 +6082,7 @@ Lua.Unload() --unloads ourself
 [back to Contents](#-1)
 
 ---
-## <a name="50"></a>Rage.OnScan
+## <a name="50"></a>Rage
 ---
 
 
@@ -6203,6 +6204,168 @@ end)
 Rage.OnScan(function()
   Rage.SetScannedDamage(10)
 end)
+```
+
+
+
+[back to Contents](#-1)
+
+---
+
+---
+## <a name="51"></a>PacketManager
+---
+
+
+#### Rage.OnScan
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Callback | function | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+Rage.OnScan(function()
+--inside callback
+  Rage.ForceBaim()
+end)
+```
+
+#### Rage.Target
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| | | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| Target | CBasePlayer | 
+
+
+```lua
+Rage.OnScan(function()
+  Print(Rage.Target()) --will print the current ragebot target
+end)
+```
+
+#### PacketManager.SetRealPackets
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| New Real Packets | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+--NOTE MUST ALWAYS BE POSITIVE
+PacketManager.SetRealPackets(16) --sets our sent real packets to 16
+```
+
+#### PacketManager.GetRealPackets
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| New Real Packets | int | 
+
+
+```lua
+PacketManager.GetRealPackets() --returns our sent real packets as int
+```
+
+#### PacketManager.SetFakePackets
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| New Fake Packets | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| | | 
+
+
+```lua
+--NOTE: MUST ALWAYS BE POSITIVE
+PacketManager.SetFakePackets(16) --sets our sent fake packets to 16
+```
+
+#### PacketManager.GetFakePackets
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+|  |  | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+| New Fake Packets | int | 
+
+
+```lua
+PacketManager.GetFakePackets() --returns our sent fake packets as int
+```
+
+#### PacketManager.ShiftTickbase
+
+
+##### Parameters:
+
+| Name | Type |
+| :--- | :--- | 
+| Shifted Ticks | int | 
+
+##### Returns:
+
+| Name | Type | 
+| :--- | :--- |
+|  |  | 
+
+
+```lua
+--MAY BE POSITIVE OR NEGATIVE DEPENDING ON CONTEXT
+--NEGATIVE: SKIP TICKSBASE
+--POSITIVE: SHIFT TICKBASE
+PacketManager.ShiftTickbase(-16) --Skips our tickbase by 16
+PacketManager.ShiftTickbase(16) --Shifts our tickbase by 16
 ```
 
 
