@@ -6217,50 +6217,6 @@ end)
 ---
 
 
-#### Rage.OnScan
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| Callback | function | 
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-|  |  | 
-
-
-```lua
-Rage.OnScan(function()
---inside callback
-  Rage.ForceBaim()
-end)
-```
-
-#### Rage.Target
-
-
-##### Parameters:
-
-| Name | Type |
-| :--- | :--- | 
-| | | 
-
-##### Returns:
-
-| Name | Type | 
-| :--- | :--- |
-| Target | CBasePlayer | 
-
-
-```lua
-Rage.OnScan(function()
-  Print(Rage.Target()) --will print the current ragebot target
-end)
-```
 
 #### PacketManager.SetRealPackets
 
