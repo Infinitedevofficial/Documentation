@@ -1,3 +1,7 @@
+# These Documents have not been updated for the Latest Version.
+
+## Infinite (CS:GO) has been discontinued due to the release for CS:GO 2
+
 ## Useful Information
 
 Local Configs are stored in `Documents\.Infinite` (for example,
