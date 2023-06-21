@@ -2,9 +2,6 @@
 
 ---
 
-
-Built in Libraries: **ffi, bit, bit32, coroutine, io, jit**
-
 <a name="-1"></a>
 
 |Index|
