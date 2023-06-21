@@ -24,7 +24,7 @@ You can edit scripts with any editor you want, make sure to reload the script af
 
 ---
 
-### Grenade Helper
+### Grenade Helper (CS2, CS:GO, Valorant Exclusive)
 
 [Documentation](/GrenadeHelper/Documentation.md)
 
