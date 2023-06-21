@@ -1,7 +1,5 @@
 #### Infinite (CS:GO) has been discontinued due to the release for CS 2
 
-### Infinite Valorant, Apex Legends, CS2 and Rainbow 6 Siege APIs can be found in the gitbook of Infinite
-
 ## Useful Information
 
 Local Configs are stored in `Documents\.Infinite` (for example,
