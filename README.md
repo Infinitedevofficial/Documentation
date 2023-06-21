@@ -1,19 +1,17 @@
-### These Documents have not been updated for the Latest Version.
-
-### Infinite (CS:GO) has been discontinued due to the release for CS 2
+#### Infinite (CS:GO) has been discontinued due to the release for CS 2
 
 ### Infinite Valorant, Apex Legends, CS2 and Rainbow 6 Siege APIs can be found in the gitbook of Infinite
 
 ## Useful Information
 
 Local Configs are stored in `Documents\.Infinite` (for example,
-`C:\Users\Oak\Documents\.Infinite\Config.json`)
+`C:\Users\User\Documents\.Infinite\Config.infinite`)
 
 Local Scripts are stored in `Documents\.Infinite\scripts` (for example,
-`C:\Users\Oak\Documents\.Infinite\scripts\Script.lua`)
+`C:\Users\User\Documents\.Infinite\scripts\Script.lua`)
 
 Local Grenade Helpers are stored in `Documents\.Infinite\GrenadeHelper` (for example,
-`C:\Users\Oak\Documents\.Infinite\GrenadeHelper\Helper.json`)
+`C:\Users\User\Documents\.Infinite\GrenadeHelper\Helper.json`)
 
 You can edit scripts with any editor you want, make sure to reload the script after saving.
 
