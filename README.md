@@ -1,6 +1,8 @@
-# These Documents have not been updated for the Latest Version.
+### These Documents have not been updated for the Latest Version.
 
-## Infinite (CS:GO) has been discontinued due to the release for CS:GO 2
+### Infinite (CS:GO) has been discontinued due to the release for CS 2
+
+### Infinite Valorant, Apex Legends, CS2 and Rainbow 6 Siege APIs can be found in the gitbook of Infinite
 
 ## Useful Information
 
