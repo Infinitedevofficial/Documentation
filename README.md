@@ -18,8 +18,6 @@ You can edit scripts with any editor you want, make sure to reload the script af
 
 [Documentation](/Lua/Documentation.md)
 
-[Example](/Lua/Examples.md)
-
 ---
 
 ### Grenade Helper (CS2, CS:GO, Valorant Exclusive)
