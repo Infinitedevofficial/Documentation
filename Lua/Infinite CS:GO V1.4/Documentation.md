@@ -1,4 +1,4 @@
-#### [Back to main page](/Lua/Documentation.md)
+#### [Back to Documentations](/Lua/Documentation.md)
 
 ---
 
